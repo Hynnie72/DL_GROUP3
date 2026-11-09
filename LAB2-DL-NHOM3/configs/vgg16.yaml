@@ -1,0 +1,14 @@
+# Cấu hình cho VGG16
+# Lưu ý: VGG16 có ~138M params, tiêu thụ nhiều VRAM hơn
+# AMP đặc biệt quan trọng với VGG16 để tiết kiệm bộ nhớ
+_base_: "base.yaml"
+
+model:
+  name: "vgg16"
+  weights: "IMAGENET1K_V1"
+  freeze_mode: "finetune_last"
+  keep_dropout: true  # Giữ Dropout(p=0.5) trong classifier
+
+training:
+  batch_size: 32  # Giảm xuống 16 nếu OOM (hết VRAM)
+  amp: true  # Bắt buộc bật cho VGG16

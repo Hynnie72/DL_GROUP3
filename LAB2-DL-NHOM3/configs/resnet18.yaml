@@ -1,0 +1,11 @@
+# Cấu hình cho ResNet18
+_base_: "base.yaml"
+
+model:
+  name: "resnet18"
+  weights: "IMAGENET1K_V1"
+  freeze_mode: "finetune_last"  # mặc định, có thể override
+
+# Override nếu cần
+training:
+  batch_size: 32

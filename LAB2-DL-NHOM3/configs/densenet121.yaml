@@ -1,0 +1,10 @@
+# Cấu hình cho DenseNet121
+_base_: "base.yaml"
+
+model:
+  name: "densenet121"
+  weights: "IMAGENET1K_V1"
+  freeze_mode: "finetune_last"
+
+training:
+  batch_size: 32

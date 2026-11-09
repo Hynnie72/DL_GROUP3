@@ -1,0 +1,91 @@
+{
+  "generated_at": "2026-11-08T16:41:52",
+  "total_experiments": 9,
+  "best": {
+    "experiment": "resnet18__finetune_last__lr1e-3__bs32__sgd",
+    "test_acc": 0.9463333333333334,
+    "test_f1": 0.9470877634734239,
+    "model_size_mb": 42.65,
+    "inference_ms_per_image": 2.42
+  },
+  "ranking": [
+    {
+      "rank": 1,
+      "experiment": "resnet18__finetune_last__lr1e-3__bs32__sgd",
+      "test_acc": 0.9463,
+      "test_f1": 0.9471,
+      "model_size_mb": 42.65,
+      "inference_ms": 2.42
+    },
+    {
+      "rank": 2,
+      "experiment": "resnet18__finetune_last__lr1e-3__bs16__sgd",
+      "test_acc": 0.9413,
+      "test_f1": 0.9422,
+      "model_size_mb": 42.65,
+      "inference_ms": 2.38
+    },
+    {
+      "rank": 3,
+      "experiment": "resnet18__finetune_last__lr1e-2__bs32__sgd",
+      "test_acc": 0.9373,
+      "test_f1": 0.9382,
+      "model_size_mb": 42.65,
+      "inference_ms": 2.39
+    },
+    {
+      "rank": 4,
+      "experiment": "resnet18__finetune_last__lr1e-4__bs32__adam",
+      "test_acc": 0.9337,
+      "test_f1": 0.935,
+      "model_size_mb": 42.65,
+      "inference_ms": 2.4
+    },
+    {
+      "rank": 5,
+      "experiment": "resnet18__finetune_last__lr1e-3__bs64__sgd",
+      "test_acc": 0.9323,
+      "test_f1": 0.9335,
+      "model_size_mb": 42.65,
+      "inference_ms": 2.4
+    },
+    {
+      "rank": 6,
+      "experiment": "resnet18__finetune_last__lr1e-4__bs32__sgd",
+      "test_acc": 0.9203,
+      "test_f1": 0.9214,
+      "model_size_mb": 42.65,
+      "inference_ms": 2.39
+    },
+    {
+      "rank": 7,
+      "experiment": "densenet121__freeze_backbone__lr1e-3__bs32__sgd",
+      "test_acc": 0.9183,
+      "test_f1": 0.92,
+      "model_size_mb": 26.55,
+      "inference_ms": 3.57
+    },
+    {
+      "rank": 8,
+      "experiment": "vgg16__freeze_backbone__lr1e-3__bs32__sgd",
+      "test_acc": 0.917,
+      "test_f1": 0.919,
+      "model_size_mb": 512.26,
+      "inference_ms": 5.25
+    },
+    {
+      "rank": 9,
+      "experiment": "resnet18__freeze_backbone__lr1e-3__bs32__sgd",
+      "test_acc": 0.9067,
+      "test_f1": 0.9087,
+      "model_size_mb": 42.65,
+      "inference_ms": 38.49
+    }
+  ],
+  "outputs": {
+    "csv": "D:\\LAB2-DL-NHOM3\\outputs\\experiment_summary.csv",
+    "html": "D:\\LAB2-DL-NHOM3\\notebooks\\lab2_report.html",
+    "log": "D:\\LAB2-DL-NHOM3\\outputs\\py_report.log",
+    "figures": "D:\\LAB2-DL-NHOM3\\outputs\\figures"
+  }
+}

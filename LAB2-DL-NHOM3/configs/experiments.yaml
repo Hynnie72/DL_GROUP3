@@ -1,0 +1,195 @@
+# Danh sách tất cả thí nghiệm
+# Mỗi thí nghiệm ghi đè lên base config
+
+experiments:
+  # ===== E1: 3 model x 3 chế độ freeze =====
+  # P0 giữ 4 run: 3 model ở freeze_backbone + ResNet18 finetune_last.
+  # 5 run còn lại (ResNet18 full_finetune, VGG16 và DenseNet121 finetune_last/full_finetune)
+  # chuyển P1: đề Practice 2 chỉ yêu cầu freeze backbone hoặc unfreeze vài lớp cuối.
+  - name: "resnet18__freeze_backbone__lr1e-3__bs32__sgd"
+    model: resnet18
+    freeze_mode: freeze_backbone
+    lr: 1.0e-3
+    batch_size: 32
+    optimizer: sgd
+    priority: P0
+
+  - name: "resnet18__finetune_last__lr1e-3__bs32__sgd"
+    model: resnet18
+    freeze_mode: finetune_last
+    lr: 1.0e-3
+    batch_size: 32
+    optimizer: sgd
+    priority: P0
+
+  - name: "resnet18__full_finetune__lr1e-3__bs32__sgd"
+    model: resnet18
+    freeze_mode: full_finetune
+    lr: 1.0e-3
+    batch_size: 32
+    optimizer: sgd
+    priority: P1  # đề chỉ cần freeze hoặc unfreeze vài lớp cuối
+
+  - name: "vgg16__freeze_backbone__lr1e-3__bs32__sgd"
+    model: vgg16
+    freeze_mode: freeze_backbone
+    lr: 1.0e-3
+    batch_size: 32
+    optimizer: sgd
+    priority: P0
+
+  - name: "vgg16__finetune_last__lr1e-3__bs32__sgd"
+    model: vgg16
+    freeze_mode: finetune_last
+    lr: 1.0e-3
+    batch_size: 32
+    optimizer: sgd
+    priority: P1  # cắt khỏi P0: VGG16 nặng nhất
+
+  - name: "vgg16__full_finetune__lr1e-3__bs32__sgd"
+    model: vgg16
+    freeze_mode: full_finetune
+    lr: 1.0e-3
+    batch_size: 32
+    optimizer: sgd
+    priority: P1  # cắt khỏi P0: VGG16 nặng nhất
+
+  - name: "densenet121__freeze_backbone__lr1e-3__bs32__sgd"
+    model: densenet121
+    freeze_mode: freeze_backbone
+    lr: 1.0e-3
+    batch_size: 32
+    optimizer: sgd
+    priority: P0
+
+  - name: "densenet121__finetune_last__lr1e-3__bs32__sgd"
+    model: densenet121
+    freeze_mode: finetune_last
+    lr: 1.0e-3
+    batch_size: 32
+    optimizer: sgd
+    priority: P1  # P0 chỉ cần 1 run finetune_last (ResNet18)
+
+  - name: "densenet121__full_finetune__lr1e-3__bs32__sgd"
+    model: densenet121
+    freeze_mode: full_finetune
+    lr: 1.0e-3
+    batch_size: 32
+    optimizer: sgd
+    priority: P1  # đề chỉ cần freeze hoặc unfreeze vài lớp cuối
+
+  # ===== E2: Learning rate (ResNet18, finetune_last) =====
+  - name: "resnet18__finetune_last__lr1e-2__bs32__sgd"
+    model: resnet18
+    freeze_mode: finetune_last
+    lr: 1.0e-2
+    batch_size: 32
+    optimizer: sgd
+    priority: P0
+
+  - name: "resnet18__finetune_last__lr1e-4__bs32__sgd"
+    model: resnet18
+    freeze_mode: finetune_last
+    lr: 1.0e-4
+    batch_size: 32
+    optimizer: sgd
+    priority: P0
+
+  # ===== E3: Batch size (ResNet18, finetune_last) =====
+  - name: "resnet18__finetune_last__lr1e-3__bs16__sgd"
+    model: resnet18
+    freeze_mode: finetune_last
+    lr: 1.0e-3
+    batch_size: 16
+    optimizer: sgd
+    priority: P0
+
+  - name: "resnet18__finetune_last__lr1e-3__bs64__sgd"
+    model: resnet18
+    freeze_mode: finetune_last
+    lr: 1.0e-3
+    batch_size: 64
+    optimizer: sgd
+    priority: P0
+
+  # ===== E4: Optimizer (ResNet18, finetune_last) =====
+  - name: "resnet18__finetune_last__lr1e-4__bs32__adam"
+    model: resnet18
+    freeze_mode: finetune_last
+    lr: 1.0e-4
+    batch_size: 32
+    optimizer: adam
+    priority: P0
+
+  - name: "resnet18__finetune_last__lr1e-3__bs32__adam"
+    model: resnet18
+    freeze_mode: finetune_last
+    lr: 1.0e-3
+    batch_size: 32
+    optimizer: adam
+    priority: P1  # cắt khỏi P0: REQ-05 đã đủ với Adam lr1e-4
+
+  # ===== E5: Lặp lại E2+E3 cho VGG16 và DenseNet121 (P1) =====
+  - name: "vgg16__finetune_last__lr1e-2__bs32__sgd"
+    model: vgg16
+    freeze_mode: finetune_last
+    lr: 1.0e-2
+    batch_size: 32
+    optimizer: sgd
+    priority: P1
+
+  - name: "vgg16__finetune_last__lr1e-4__bs32__sgd"
+    model: vgg16
+    freeze_mode: finetune_last
+    lr: 1.0e-4
+    batch_size: 32
+    optimizer: sgd
+    priority: P1
+
+  - name: "vgg16__finetune_last__lr1e-3__bs16__sgd"
+    model: vgg16
+    freeze_mode: finetune_last
+    lr: 1.0e-3
+    batch_size: 16
+    optimizer: sgd
+    priority: P1
+
+  - name: "vgg16__finetune_last__lr1e-3__bs64__sgd"
+    model: vgg16
+    freeze_mode: finetune_last
+    lr: 1.0e-3
+    batch_size: 64
+    optimizer: sgd
+    priority: P1
+
+  - name: "densenet121__finetune_last__lr1e-2__bs32__sgd"
+    model: densenet121
+    freeze_mode: finetune_last
+    lr: 1.0e-2
+    batch_size: 32
+    optimizer: sgd
+    priority: P1
+
+  - name: "densenet121__finetune_last__lr1e-4__bs32__sgd"
+    model: densenet121
+    freeze_mode: finetune_last
+    lr: 1.0e-4
+    batch_size: 32
+    optimizer: sgd
+    priority: P1
+
+  - name: "densenet121__finetune_last__lr1e-3__bs16__sgd"
+    model: densenet121
+    freeze_mode: finetune_last
+    lr: 1.0e-3
+    batch_size: 16
+    optimizer: sgd
+    priority: P1
+
+  - name: "densenet121__finetune_last__lr1e-3__bs64__sgd"
+    model: densenet121
+    freeze_mode: finetune_last
+    lr: 1.0e-3
+    batch_size: 64
+    optimizer: sgd
+    priority: P1

@@ -1,0 +1,29 @@
+# ============================================================
+# requirements.txt — LAB2: Transfer Learning with Pretrained CNNs
+# ============================================================
+# Lưu ý: Trên Kaggle, hầu hết các gói dưới đây đã được cài sẵn.
+# Chỉ cần pip install nếu thiếu.
+# Kiểm tra: pip list | grep <tên_gói>
+# ============================================================
+
+# --- Deep Learning ---
+torch>=2.0.0
+torchvision>=0.15.0
+
+# --- TensorBoard ---
+tensorboard>=2.13.0
+
+# --- Data & Metrics ---
+scikit-learn>=1.3.0
+pandas>=2.0.0
+numpy>=1.24.0
+
+# --- Visualization ---
+matplotlib>=3.7.0
+seaborn>=0.12.0
+pillow>=9.5.0
+
+# --- Utilities ---
+tqdm>=4.65.0
+pyyaml>=6.0
+colorama>=0.4.6

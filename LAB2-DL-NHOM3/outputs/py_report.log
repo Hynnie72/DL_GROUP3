@@ -1,0 +1,280 @@
+11:51:27  ==============================================================
+11:51:27    py_report.py - Bao cao tu dong Lab 2 Transfer Learning
+11:51:27  ==============================================================
+11:51:27  Project root : D:\LAB2-DL-NHOM3
+11:51:27  ==============================================================
+11:51:27    BUOC 1: Thu thap metrics tu outputs/
+11:51:27  ==============================================================
+11:51:27    OK  densenet121__freeze_backbone__lr1e-3__bs32__sgd  |  Acc=0.9183  F1=0.9200
+11:51:27    OK  resnet18__finetune_last__lr1e-2__bs32__sgd  |  Acc=0.9373  F1=0.9382
+11:51:27    OK  resnet18__finetune_last__lr1e-3__bs16__sgd  |  Acc=0.9413  F1=0.9422
+11:51:27    OK  resnet18__finetune_last__lr1e-3__bs32__sgd  |  Acc=0.9463  F1=0.9471
+11:51:27    OK  resnet18__finetune_last__lr1e-3__bs64__sgd  |  Acc=0.9323  F1=0.9335
+11:51:27    OK  resnet18__finetune_last__lr1e-4__bs32__adam  |  Acc=0.9337  F1=0.9350
+11:51:27    OK  resnet18__finetune_last__lr1e-4__bs32__sgd  |  Acc=0.9203  F1=0.9214
+11:51:27    OK  resnet18__freeze_backbone__lr1e-3__bs32__sgd  |  Acc=0.9067  F1=0.9087
+11:51:27    OK  vgg16__freeze_backbone__lr1e-3__bs32__sgd  |  Acc=0.9170  F1=0.9190
+11:51:27  Tong cong: 9 experiment(s) tim thay
+11:51:27  ==============================================================
+11:51:27    BUOC 2: Xuat CSV tong hop
+11:51:27  ==============================================================
+11:51:27  Da luu: D:\LAB2-DL-NHOM3\outputs\experiment_summary.csv
+11:51:27  ==============================================================
+11:51:27    BUOC 3: Ve bieu do so sanh va luu PNG
+11:51:27  ==============================================================
+11:51:27    Luu: D:\LAB2-DL-NHOM3\outputs\figures\cmp_acc_f1.png
+11:51:27    Luu: D:\LAB2-DL-NHOM3\outputs\figures\cmp_size_vs_acc.png
+11:51:28    Luu: D:\LAB2-DL-NHOM3\outputs\figures\cmp_perclass_f1.png
+11:51:28    Luu: D:\LAB2-DL-NHOM3\outputs\figures\cmp_learning_curves_top3.png
+11:51:28  ==============================================================
+11:51:28    BUOC 4: Chay notebook qua nbconvert (tuy chon)
+11:51:28  ==============================================================
+11:51:32  Dang chay notebook: lab2_report.ipynb ...
+11:58:59  ==============================================================
+11:58:59    py_report.py - Bao cao tu dong Lab 2 Transfer Learning
+11:58:59  ==============================================================
+11:58:59  Project root : D:\LAB2-DL-NHOM3
+11:58:59  ==============================================================
+11:58:59    BUOC 1: Thu thap metrics tu outputs/
+11:58:59  ==============================================================
+11:58:59    OK  densenet121__freeze_backbone__lr1e-3__bs32__sgd  |  Acc=0.9183  F1=0.9200
+11:58:59    OK  resnet18__finetune_last__lr1e-2__bs32__sgd  |  Acc=0.9373  F1=0.9382
+11:58:59    OK  resnet18__finetune_last__lr1e-3__bs16__sgd  |  Acc=0.9413  F1=0.9422
+11:58:59    OK  resnet18__finetune_last__lr1e-3__bs32__sgd  |  Acc=0.9463  F1=0.9471
+11:58:59    OK  resnet18__finetune_last__lr1e-3__bs64__sgd  |  Acc=0.9323  F1=0.9335
+11:58:59    OK  resnet18__finetune_last__lr1e-4__bs32__adam  |  Acc=0.9337  F1=0.9350
+11:58:59    OK  resnet18__finetune_last__lr1e-4__bs32__sgd  |  Acc=0.9203  F1=0.9214
+11:58:59    OK  resnet18__freeze_backbone__lr1e-3__bs32__sgd  |  Acc=0.9067  F1=0.9087
+11:58:59    OK  vgg16__freeze_backbone__lr1e-3__bs32__sgd  |  Acc=0.9170  F1=0.9190
+11:58:59  Tong cong: 9 experiment(s) tim thay
+11:58:59  ==============================================================
+11:58:59    BUOC 2: Xuat CSV tong hop
+11:58:59  ==============================================================
+11:58:59  Da luu: D:\LAB2-DL-NHOM3\outputs\experiment_summary.csv
+11:58:59  ==============================================================
+11:58:59    BUOC 3: Ve bieu do so sanh va luu PNG
+11:58:59  ==============================================================
+11:58:59    Luu: D:\LAB2-DL-NHOM3\outputs\figures\cmp_acc_f1.png
+11:58:59    Luu: D:\LAB2-DL-NHOM3\outputs\figures\cmp_size_vs_acc.png
+11:58:59    Luu: D:\LAB2-DL-NHOM3\outputs\figures\cmp_perclass_f1.png
+11:59:00    Luu: D:\LAB2-DL-NHOM3\outputs\figures\cmp_learning_curves_top3.png
+11:59:00  ==============================================================
+11:59:00    BUOC 4: Chay notebook qua nbconvert (tuy chon)
+11:59:00  ==============================================================
+11:59:02  Dang chay notebook: lab2_report.ipynb ...
+11:59:02  (Timeout 120s - neu vuot qua se skip, chay thu cong bang 'Run All')
+12:03:59  ==============================================================
+12:03:59    py_report.py - Bao cao tu dong Lab 2 Transfer Learning
+12:03:59  ==============================================================
+12:03:59  Project root : D:\LAB2-DL-NHOM3
+12:03:59  ==============================================================
+12:03:59    BUOC 1: Thu thap metrics tu outputs/
+12:03:59  ==============================================================
+12:03:59    OK  densenet121__freeze_backbone__lr1e-3__bs32__sgd  |  Acc=0.9183  F1=0.9200
+12:03:59    OK  resnet18__finetune_last__lr1e-2__bs32__sgd  |  Acc=0.9373  F1=0.9382
+12:03:59    OK  resnet18__finetune_last__lr1e-3__bs16__sgd  |  Acc=0.9413  F1=0.9422
+12:03:59    OK  resnet18__finetune_last__lr1e-3__bs32__sgd  |  Acc=0.9463  F1=0.9471
+12:03:59    OK  resnet18__finetune_last__lr1e-3__bs64__sgd  |  Acc=0.9323  F1=0.9335
+12:03:59    OK  resnet18__finetune_last__lr1e-4__bs32__adam  |  Acc=0.9337  F1=0.9350
+12:03:59    OK  resnet18__finetune_last__lr1e-4__bs32__sgd  |  Acc=0.9203  F1=0.9214
+12:03:59    OK  resnet18__freeze_backbone__lr1e-3__bs32__sgd  |  Acc=0.9067  F1=0.9087
+12:03:59    OK  vgg16__freeze_backbone__lr1e-3__bs32__sgd  |  Acc=0.9170  F1=0.9190
+12:03:59  Tong cong: 9 experiment(s) tim thay
+12:03:59  ==============================================================
+12:03:59    BUOC 2: Xuat CSV tong hop
+12:03:59  ==============================================================
+12:03:59  Da luu: D:\LAB2-DL-NHOM3\outputs\experiment_summary.csv
+12:03:59  ==============================================================
+12:03:59    BUOC 3: Ve bieu do so sanh va luu PNG
+12:03:59  ==============================================================
+12:03:59    Luu: D:\LAB2-DL-NHOM3\outputs\figures\cmp_acc_f1.png
+12:04:00    Luu: D:\LAB2-DL-NHOM3\outputs\figures\cmp_size_vs_acc.png
+12:04:00    Luu: D:\LAB2-DL-NHOM3\outputs\figures\cmp_perclass_f1.png
+12:04:00    Luu: D:\LAB2-DL-NHOM3\outputs\figures\cmp_learning_curves_top3.png
+12:04:00  ==============================================================
+12:04:00    BUOC 4: Chay notebook qua nbconvert (tuy chon)
+12:04:00  ==============================================================
+12:04:03  Dang xuat HTML truc tiep tu notebook nguon (khong execute)...
+12:24:50  ==============================================================
+12:24:50    py_report.py - Bao cao tu dong Lab 2 Transfer Learning
+12:24:50  ==============================================================
+12:24:50  Project root : D:\LAB2-DL-NHOM3
+12:24:50  ==============================================================
+12:24:50    BUOC 1: Thu thap metrics tu outputs/
+12:24:50  ==============================================================
+12:24:50    OK  densenet121__freeze_backbone__lr1e-3__bs32__sgd  |  Acc=0.9183  F1=0.9200
+12:24:50    OK  resnet18__finetune_last__lr1e-2__bs32__sgd  |  Acc=0.9373  F1=0.9382
+12:24:50    OK  resnet18__finetune_last__lr1e-3__bs16__sgd  |  Acc=0.9413  F1=0.9422
+12:24:50    OK  resnet18__finetune_last__lr1e-3__bs32__sgd  |  Acc=0.9463  F1=0.9471
+12:24:50    OK  resnet18__finetune_last__lr1e-3__bs64__sgd  |  Acc=0.9323  F1=0.9335
+12:24:50    OK  resnet18__finetune_last__lr1e-4__bs32__adam  |  Acc=0.9337  F1=0.9350
+12:24:50    OK  resnet18__finetune_last__lr1e-4__bs32__sgd  |  Acc=0.9203  F1=0.9214
+12:24:50    OK  resnet18__freeze_backbone__lr1e-3__bs32__sgd  |  Acc=0.9067  F1=0.9087
+12:24:50    OK  vgg16__freeze_backbone__lr1e-3__bs32__sgd  |  Acc=0.9170  F1=0.9190
+12:24:50  Tong cong: 9 experiment(s) tim thay
+12:24:50  ==============================================================
+12:24:50    BUOC 2: Xuat CSV tong hop
+12:24:50  ==============================================================
+12:24:50  Da luu: D:\LAB2-DL-NHOM3\outputs\experiment_summary.csv
+12:24:50  ==============================================================
+12:24:50    BUOC 3: Ve bieu do so sanh va luu PNG
+12:24:50  ==============================================================
+12:24:51    Luu: D:\LAB2-DL-NHOM3\outputs\figures\cmp_acc_f1.png
+12:24:51    Luu: D:\LAB2-DL-NHOM3\outputs\figures\cmp_size_vs_acc.png
+12:24:51    Luu: D:\LAB2-DL-NHOM3\outputs\figures\cmp_perclass_f1.png
+12:24:51    Luu: D:\LAB2-DL-NHOM3\outputs\figures\cmp_learning_curves_top3.png
+12:24:51  ==============================================================
+12:24:51    BUOC 4: Huong dan export HTML
+12:24:51  ==============================================================
+12:24:51  Notebook: D:\LAB2-DL-NHOM3\notebooks\lab2_report.ipynb
+12:24:51  De export HTML, chay lenh sau trong terminal:
+12:24:51    jupyter nbconvert --to html notebooks/lab2_report.ipynb
+12:24:51  Hoac tren Kaggle: bam 'Run All' roi download file .ipynb ve.
+12:24:51  ==============================================================
+12:24:51    BUOC 6: Audit - Doi chieu voi mo ta yeu cau
+12:24:51  ==============================================================
+12:24:52  [stderr] \Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 0: character maps to <undefined>
+
+12:24:52  [WARN] Audit bao loi - kiem tra chi tiet o tren.
+12:24:52  ==============================================================
+12:24:52    BUOC 7: Tom tat va luu report_summary.json
+12:24:52  ==============================================================
+12:24:52  Da luu: D:\LAB2-DL-NHOM3\outputs\report_summary.json
+12:24:52  Thoi gian            : 2026-11-08T12:24:52
+12:24:52  Tong experiments     : 9
+12:24:52  Best model           : resnet18__finetune_last__lr1e-3__bs32__sgd
+12:24:52  Test Accuracy        : 0.9463
+12:24:52  Test F1 Macro        : 0.9471
+12:24:52  Model size           : 42.6 MB
+12:24:52  Inference speed      : 2.42 ms/anh
+12:24:52  Cac file da xuat:
+12:24:52    CSV       : D:\LAB2-DL-NHOM3\outputs\experiment_summary.csv
+12:24:52    JSON      : D:\LAB2-DL-NHOM3\outputs\report_summary.json
+12:24:52    HTML      : D:\LAB2-DL-NHOM3\notebooks\lab2_report.html
+12:24:52    Figures   : D:\LAB2-DL-NHOM3\outputs\figures
+12:24:52    Log       : D:\LAB2-DL-NHOM3\outputs\py_report.log
+12:25:09  ==============================================================
+12:25:09    py_report.py - Bao cao tu dong Lab 2 Transfer Learning
+12:25:09  ==============================================================
+12:25:09  Project root : D:\LAB2-DL-NHOM3
+12:25:09  ==============================================================
+12:25:09    BUOC 1: Thu thap metrics tu outputs/
+12:25:09  ==============================================================
+12:25:09    OK  densenet121__freeze_backbone__lr1e-3__bs32__sgd  |  Acc=0.9183  F1=0.9200
+12:25:09    OK  resnet18__finetune_last__lr1e-2__bs32__sgd  |  Acc=0.9373  F1=0.9382
+12:25:09    OK  resnet18__finetune_last__lr1e-3__bs16__sgd  |  Acc=0.9413  F1=0.9422
+12:25:09    OK  resnet18__finetune_last__lr1e-3__bs32__sgd  |  Acc=0.9463  F1=0.9471
+12:25:09    OK  resnet18__finetune_last__lr1e-3__bs64__sgd  |  Acc=0.9323  F1=0.9335
+12:25:09    OK  resnet18__finetune_last__lr1e-4__bs32__adam  |  Acc=0.9337  F1=0.9350
+12:25:09    OK  resnet18__finetune_last__lr1e-4__bs32__sgd  |  Acc=0.9203  F1=0.9214
+12:25:09    OK  resnet18__freeze_backbone__lr1e-3__bs32__sgd  |  Acc=0.9067  F1=0.9087
+12:25:09    OK  vgg16__freeze_backbone__lr1e-3__bs32__sgd  |  Acc=0.9170  F1=0.9190
+12:25:09  Tong cong: 9 experiment(s) tim thay
+12:25:09  ==============================================================
+12:25:09    BUOC 2: Xuat CSV tong hop
+12:25:09  ==============================================================
+12:25:09  Da luu: D:\LAB2-DL-NHOM3\outputs\experiment_summary.csv
+12:25:09  ==============================================================
+12:25:09    BUOC 3: Ve bieu do so sanh va luu PNG
+12:25:09  ==============================================================
+12:25:09    Luu: D:\LAB2-DL-NHOM3\outputs\figures\cmp_acc_f1.png
+12:25:09    Luu: D:\LAB2-DL-NHOM3\outputs\figures\cmp_size_vs_acc.png
+12:25:09    Luu: D:\LAB2-DL-NHOM3\outputs\figures\cmp_perclass_f1.png
+12:25:10    Luu: D:\LAB2-DL-NHOM3\outputs\figures\cmp_learning_curves_top3.png
+12:25:10  ==============================================================
+12:25:10    BUOC 4: Huong dan export HTML
+12:25:10  ==============================================================
+12:25:10  Notebook: D:\LAB2-DL-NHOM3\notebooks\lab2_report.ipynb
+12:25:10  De export HTML, chay lenh sau trong terminal:
+12:25:10    jupyter nbconvert --to html notebooks/lab2_report.ipynb
+12:25:10  Hoac tren Kaggle: bam 'Run All' roi download file .ipynb ve.
+12:25:10  ==============================================================
+12:25:10    BUOC 6: Audit - Doi chieu voi mo ta yeu cau
+12:25:10  ==============================================================
+12:25:10  [stderr] \Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 0: character maps to <undefined>
+
+12:25:10  [WARN] Audit bao loi - kiem tra chi tiet o tren.
+12:25:10  ==============================================================
+12:25:10    BUOC 7: Tom tat va luu report_summary.json
+12:25:10  ==============================================================
+12:25:10  Da luu: D:\LAB2-DL-NHOM3\outputs\report_summary.json
+12:25:10  Thoi gian            : 2026-11-08T12:25:10
+12:25:10  Tong experiments     : 9
+12:25:10  Best model           : resnet18__finetune_last__lr1e-3__bs32__sgd
+12:25:10  Test Accuracy        : 0.9463
+12:25:10  Test F1 Macro        : 0.9471
+12:25:10  Model size           : 42.6 MB
+12:25:10  Inference speed      : 2.42 ms/anh
+12:25:10  Cac file da xuat:
+12:25:10    CSV       : D:\LAB2-DL-NHOM3\outputs\experiment_summary.csv
+12:25:10    JSON      : D:\LAB2-DL-NHOM3\outputs\report_summary.json
+12:25:10    HTML      : D:\LAB2-DL-NHOM3\notebooks\lab2_report.html
+12:25:10    Figures   : D:\LAB2-DL-NHOM3\outputs\figures
+12:25:10    Log       : D:\LAB2-DL-NHOM3\outputs\py_report.log
+16:41:51  ==============================================================
+16:41:51    py_report.py - Bao cao tu dong Lab 2 Transfer Learning
+16:41:51  ==============================================================
+16:41:51  Project root : D:\LAB2-DL-NHOM3
+16:41:51  ==============================================================
+16:41:51    BUOC 1: Thu thap metrics tu outputs/
+16:41:51  ==============================================================
+16:41:51    OK  densenet121__freeze_backbone__lr1e-3__bs32__sgd  |  Acc=0.9183  F1=0.9200
+16:41:51    OK  resnet18__finetune_last__lr1e-2__bs32__sgd  |  Acc=0.9373  F1=0.9382
+16:41:51    OK  resnet18__finetune_last__lr1e-3__bs16__sgd  |  Acc=0.9413  F1=0.9422
+16:41:51    OK  resnet18__finetune_last__lr1e-3__bs32__sgd  |  Acc=0.9463  F1=0.9471
+16:41:51    OK  resnet18__finetune_last__lr1e-3__bs64__sgd  |  Acc=0.9323  F1=0.9335
+16:41:51    OK  resnet18__finetune_last__lr1e-4__bs32__adam  |  Acc=0.9337  F1=0.9350
+16:41:51    OK  resnet18__finetune_last__lr1e-4__bs32__sgd  |  Acc=0.9203  F1=0.9214
+16:41:51    OK  resnet18__freeze_backbone__lr1e-3__bs32__sgd  |  Acc=0.9067  F1=0.9087
+16:41:51    OK  vgg16__freeze_backbone__lr1e-3__bs32__sgd  |  Acc=0.9170  F1=0.9190
+16:41:51  Tong cong: 9 experiment(s) tim thay
+16:41:51  ==============================================================
+16:41:51    BUOC 2: Xuat CSV tong hop
+16:41:51  ==============================================================
+16:41:51  Da luu: D:\LAB2-DL-NHOM3\outputs\experiment_summary.csv
+16:41:51  ==============================================================
+16:41:51    BUOC 3: Ve bieu do so sanh va luu PNG
+16:41:51  ==============================================================
+16:41:51    Luu: D:\LAB2-DL-NHOM3\outputs\figures\cmp_acc_f1.png
+16:41:52    Luu: D:\LAB2-DL-NHOM3\outputs\figures\cmp_size_vs_acc.png
+16:41:52    Luu: D:\LAB2-DL-NHOM3\outputs\figures\cmp_perclass_f1.png
+16:41:52    Luu: D:\LAB2-DL-NHOM3\outputs\figures\cmp_learning_curves_top3.png
+16:41:52  ==============================================================
+16:41:52    BUOC 4: Huong dan export HTML
+16:41:52  ==============================================================
+16:41:52  Notebook: D:\LAB2-DL-NHOM3\notebooks\lab2_report.ipynb
+16:41:52  De export HTML, chay lenh sau trong terminal:
+16:41:52    jupyter nbconvert --to html notebooks/lab2_report.ipynb
+16:41:52  Hoac tren Kaggle: bam 'Run All' roi download file .ipynb ve.
+16:41:52  ==============================================================
+16:41:52    BUOC 6: Audit - Doi chieu voi mo ta yeu cau
+16:41:52  ==============================================================
+16:41:52  [stderr] \Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 0: character maps to <undefined>
+
+16:41:52  [WARN] Audit bao loi - kiem tra chi tiet o tren.
+16:41:52  ==============================================================
+16:41:52    BUOC 7: Tom tat va luu report_summary.json
+16:41:52  ==============================================================
+16:41:52  Da luu: D:\LAB2-DL-NHOM3\outputs\report_summary.json
+16:41:52  Thoi gian            : 2026-11-08T16:41:52
+16:41:52  Tong experiments     : 9
+16:41:52  Best model           : resnet18__finetune_last__lr1e-3__bs32__sgd
+16:41:52  Test Accuracy        : 0.9463
+16:41:52  Test F1 Macro        : 0.9471
+16:41:52  Model size           : 42.6 MB
+16:41:52  Inference speed      : 2.42 ms/anh
+16:41:52  Cac file da xuat:
+16:41:52    CSV       : D:\LAB2-DL-NHOM3\outputs\experiment_summary.csv
+16:41:52    JSON      : D:\LAB2-DL-NHOM3\outputs\report_summary.json
+16:41:52    HTML      : D:\LAB2-DL-NHOM3\notebooks\lab2_report.html
+16:41:52    Figures   : D:\LAB2-DL-NHOM3\outputs\figures
+16:41:52    Log       : D:\LAB2-DL-NHOM3\outputs\py_report.log

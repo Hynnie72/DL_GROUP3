@@ -1,0 +1,17 @@
+# Cấu hình smoke test: tập con nhỏ, 1 epoch, batch nhỏ
+_base_: "base.yaml"
+
+smoke_test:
+  enabled: true
+  samples_per_class: 8  # Chỉ lấy 8 ảnh mỗi lớp
+  num_classes: 6
+
+training:
+  epochs: 1
+  batch_size: 4
+  num_workers: 0  # Tránh multiprocessing trên Windows
+  amp: false  # Tắt AMP để debug dễ hơn
+
+paths:
+  runs_dir: "runs/smoke"
+  outputs_dir: "outputs/smoke"

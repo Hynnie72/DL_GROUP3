@@ -1,0 +1,42 @@
+Layer,Loại,Shape,Params,Trainable
+conv1,Conv2d,"torch.Size([64, 3, 7, 7])","9,408",0
+bn1,BatchNorm2d,torch.Size([64]),128,0
+layer1.0.conv1,Conv2d,"torch.Size([64, 64, 3, 3])","36,864",0
+layer1.0.bn1,BatchNorm2d,torch.Size([64]),128,0
+layer1.0.conv2,Conv2d,"torch.Size([64, 64, 3, 3])","36,864",0
+layer1.0.bn2,BatchNorm2d,torch.Size([64]),128,0
+layer1.1.conv1,Conv2d,"torch.Size([64, 64, 3, 3])","36,864",0
+layer1.1.bn1,BatchNorm2d,torch.Size([64]),128,0
+layer1.1.conv2,Conv2d,"torch.Size([64, 64, 3, 3])","36,864",0
+layer1.1.bn2,BatchNorm2d,torch.Size([64]),128,0
+layer2.0.conv1,Conv2d,"torch.Size([128, 64, 3, 3])","73,728",0
+layer2.0.bn1,BatchNorm2d,torch.Size([128]),256,0
+layer2.0.conv2,Conv2d,"torch.Size([128, 128, 3, 3])","147,456",0
+layer2.0.bn2,BatchNorm2d,torch.Size([128]),256,0
+layer2.0.downsample.0,Conv2d,"torch.Size([128, 64, 1, 1])","8,192",0
+layer2.0.downsample.1,BatchNorm2d,torch.Size([128]),256,0
+layer2.1.conv1,Conv2d,"torch.Size([128, 128, 3, 3])","147,456",0
+layer2.1.bn1,BatchNorm2d,torch.Size([128]),256,0
+layer2.1.conv2,Conv2d,"torch.Size([128, 128, 3, 3])","147,456",0
+layer2.1.bn2,BatchNorm2d,torch.Size([128]),256,0
+layer3.0.conv1,Conv2d,"torch.Size([256, 128, 3, 3])","294,912",0
+layer3.0.bn1,BatchNorm2d,torch.Size([256]),512,0
+layer3.0.conv2,Conv2d,"torch.Size([256, 256, 3, 3])","589,824",0
+layer3.0.bn2,BatchNorm2d,torch.Size([256]),512,0
+layer3.0.downsample.0,Conv2d,"torch.Size([256, 128, 1, 1])","32,768",0
+layer3.0.downsample.1,BatchNorm2d,torch.Size([256]),512,0
+layer3.1.conv1,Conv2d,"torch.Size([256, 256, 3, 3])","589,824",0
+layer3.1.bn1,BatchNorm2d,torch.Size([256]),512,0
+layer3.1.conv2,Conv2d,"torch.Size([256, 256, 3, 3])","589,824",0
+layer3.1.bn2,BatchNorm2d,torch.Size([256]),512,0
+layer4.0.conv1,Conv2d,"torch.Size([512, 256, 3, 3])","1,179,648","1,179,648"
+layer4.0.bn1,BatchNorm2d,torch.Size([512]),"1,024","1,024"
+layer4.0.conv2,Conv2d,"torch.Size([512, 512, 3, 3])","2,359,296","2,359,296"
+layer4.0.bn2,BatchNorm2d,torch.Size([512]),"1,024","1,024"
+layer4.0.downsample.0,Conv2d,"torch.Size([512, 256, 1, 1])","131,072","131,072"
+layer4.0.downsample.1,BatchNorm2d,torch.Size([512]),"1,024","1,024"
+layer4.1.conv1,Conv2d,"torch.Size([512, 512, 3, 3])","2,359,296","2,359,296"
+layer4.1.bn1,BatchNorm2d,torch.Size([512]),"1,024","1,024"
+layer4.1.conv2,Conv2d,"torch.Size([512, 512, 3, 3])","2,359,296","2,359,296"
+layer4.1.bn2,BatchNorm2d,torch.Size([512]),"1,024","1,024"
+fc,Linear,"torch.Size([6, 512])","3,078","3,078"

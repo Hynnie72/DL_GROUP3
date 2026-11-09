@@ -1,0 +1,63 @@
+# Cấu hình cơ sở (baseline) cho mọi thí nghiệm
+project:
+  name: "lab2_pretrained_cnn"
+  seed: 42
+  language: "vi"
+
+dataset:
+  name: "intel-image-classification"
+  num_classes: 6
+  classes: ["buildings", "forest", "glacier", "mountain", "sea", "street"]
+  image_size: 224
+  original_size: 150
+  # Đường dẫn fallback khi chạy local (thay bằng đường dẫn thực của bạn)
+  local_root: "data/intel-image-classification"  # placeholder
+  # Trên Kaggle sẽ được tìm tự động bằng find_dataset_root()
+
+split:
+  val_ratio: 0.15
+  stratified: true
+  seed: 42
+
+training:
+  epochs: 30
+  batch_size: 32
+  num_workers: 2
+  pin_memory: true
+  amp: true  # Automatic Mixed Precision
+
+optimizer:
+  name: "sgd"
+  lr: 1.0e-3
+  momentum: 0.9
+  weight_decay: 5.0e-4  # tăng từ 1e-4 để hạn chế overfit
+
+scheduler:
+  name: "cosine"
+  T_max: 30
+
+early_stopping:
+  patience: 8
+  monitor: "val_accuracy"
+  mode: "max"
+
+loss:
+  name: "cross_entropy"
+  label_smoothing: 0.1  # giảm overfit, không đổi lr/thí nghiệm
+
+paths:
+  runs_dir: "/kaggle/working/runs"
+  outputs_dir: "/kaggle/working/outputs"
+  # Khi chạy local, override các đường dẫn này
+  local_runs_dir: "runs"
+  local_outputs_dir: "outputs"
+
+resume:
+  enabled: false
+  resume_from: null  # Đường dẫn đến output của phiên trước (khi gắn làm input Kaggle)
+
+tensorboard:
+  log_images: true
+  log_histograms: false  # Tắt để tiết kiệm thời gian/bộ nhớ, bật nếu cần debug
+  log_graph: true
+  log_hparams: true

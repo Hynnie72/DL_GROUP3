@@ -1,0 +1,17 @@
+Layer,Loại,Shape,Params,Trainable
+features.0,Conv2d,"torch.Size([64, 3, 3, 3])","1,792",0
+features.2,Conv2d,"torch.Size([64, 64, 3, 3])","36,928",0
+features.5,Conv2d,"torch.Size([128, 64, 3, 3])","73,856",0
+features.7,Conv2d,"torch.Size([128, 128, 3, 3])","147,584",0
+features.10,Conv2d,"torch.Size([256, 128, 3, 3])","295,168",0
+features.12,Conv2d,"torch.Size([256, 256, 3, 3])","590,080",0
+features.14,Conv2d,"torch.Size([256, 256, 3, 3])","590,080",0
+features.17,Conv2d,"torch.Size([512, 256, 3, 3])","1,180,160",0
+features.19,Conv2d,"torch.Size([512, 512, 3, 3])","2,359,808",0
+features.21,Conv2d,"torch.Size([512, 512, 3, 3])","2,359,808",0
+features.24,Conv2d,"torch.Size([512, 512, 3, 3])","2,359,808","2,359,808"
+features.26,Conv2d,"torch.Size([512, 512, 3, 3])","2,359,808","2,359,808"
+features.28,Conv2d,"torch.Size([512, 512, 3, 3])","2,359,808","2,359,808"
+classifier.0,Linear,"torch.Size([4096, 25088])","102,764,544","102,764,544"
+classifier.3,Linear,"torch.Size([4096, 4096])","16,781,312","16,781,312"
+classifier.6,Linear,"torch.Size([6, 4096])","24,582","24,582"
