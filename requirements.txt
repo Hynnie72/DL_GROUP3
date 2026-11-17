@@ -1,0 +1,10 @@
+IPython
+matplotlib
+numpy
+openpyxl
+pandas
+psutil
+reportlab
+sklearn
+torch
+torchvision

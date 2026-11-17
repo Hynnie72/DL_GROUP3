@@ -1,0 +1,736 @@
+﻿
+[1/15]
+===== Cơ sở: 2 lớp ẩn (256-128) | 784 -> 256 -> 128 -> 10 | Adam (lr=0.001) | batch 64 | 35 epochs =====
+  [BEST] Epoch 01 | Evaluation Loss: 0.447885
+  Epoch 01/35 | Train Loss: 0.6179 | Train Acc: 76.85% | Evaluation Loss: 0.4479 | Evaluation Acc: 83.29%
+  [BEST] Epoch 02 | Evaluation Loss: 0.435936
+  [BEST] Epoch 03 | Evaluation Loss: 0.397640
+  [BEST] Epoch 04 | Evaluation Loss: 0.373079
+  Epoch 05/35 | Train Loss: 0.4165 | Train Acc: 84.65% | Evaluation Loss: 0.3745 | Evaluation Acc: 86.53%
+  [BEST] Epoch 06 | Evaluation Loss: 0.358134
+  [BEST] Epoch 08 | Evaluation Loss: 0.346219
+  Epoch 10/35 | Train Loss: 0.3826 | Train Acc: 85.81% | Evaluation Loss: 0.3483 | Evaluation Acc: 87.27%
+  [BEST] Epoch 13 | Evaluation Loss: 0.341422
+  [BEST] Epoch 14 | Evaluation Loss: 0.337705
+  Epoch 15/35 | Train Loss: 0.3658 | Train Acc: 86.45% | Evaluation Loss: 0.3502 | Evaluation Acc: 86.93%
+  [BEST] Epoch 16 | Evaluation Loss: 0.336519
+  [BEST] Epoch 18 | Evaluation Loss: 0.334048
+  [BEST] Epoch 19 | Evaluation Loss: 0.328520
+  Epoch 20/35 | Train Loss: 0.3559 | Train Acc: 86.91% | Evaluation Loss: 0.3323 | Evaluation Acc: 87.42%
+  [BEST] Epoch 22 | Evaluation Loss: 0.322232
+  [BEST] Epoch 25 | Evaluation Loss: 0.321530
+  Epoch 25/35 | Train Loss: 0.3423 | Train Acc: 87.33% | Evaluation Loss: 0.3215 | Evaluation Acc: 88.41%
+  [BEST] Epoch 30 | Evaluation Loss: 0.320214
+  Epoch 30/35 | Train Loss: 0.3428 | Train Acc: 87.47% | Evaluation Loss: 0.3202 | Evaluation Acc: 88.45%
+  [BEST] Epoch 34 | Evaluation Loss: 0.312283
+  Epoch 35/35 | Train Loss: 0.3339 | Train Acc: 87.67% | Evaluation Loss: 0.3186 | Evaluation Acc: 88.61%
+
+============================================================
+TRAINING COMPLETED
+Best Epoch       : 34
+Best Eval Loss   : 0.312283
+Best Checkpoint  : ./saved_models\co_so_2_lop_an_256_128\best_checkpoint.pth
+Last Checkpoint  : ./saved_models\co_so_2_lop_an_256_128\last_checkpoint.pth
+============================================================
+
+=================================================================
+EXPERIMENT COMPLETED: Cơ sở: 2 lớp ẩn (256-128)
+=================================================================
+Best Epoch             : 34
+Best Evaluation Loss   : 0.312283
+Best Checkpoint Acc    : 88.70%
+Last Epoch Eval Acc    : 88.61%
+Total Execution Time   : 1436.53s
+
+Best Checkpoint        : ./saved_models\co_so_2_lop_an_256_128\best_checkpoint.pth
+Last Checkpoint        : ./saved_models\co_so_2_lop_an_256_128\last_checkpoint.pth
+=================================================================
+
+[2/15]
+===== 1 lớp ẩn (256) | 784 -> 256 -> 10 | Adam (lr=0.001) | batch 64 | 35 epochs =====
+  [BEST] Epoch 01 | Evaluation Loss: 0.441487
+  Epoch 01/35 | Train Loss: 0.5894 | Train Acc: 78.12% | Evaluation Loss: 0.4415 | Evaluation Acc: 83.81%
+  [BEST] Epoch 02 | Evaluation Loss: 0.407556
+  [BEST] Epoch 03 | Evaluation Loss: 0.387651
+  [BEST] Epoch 04 | Evaluation Loss: 0.384368
+  Epoch 05/35 | Train Loss: 0.4186 | Train Acc: 84.64% | Evaluation Loss: 0.3969 | Evaluation Acc: 86.00%
+  [BEST] Epoch 06 | Evaluation Loss: 0.372114
+  [BEST] Epoch 07 | Evaluation Loss: 0.370440
+  [BEST] Epoch 09 | Evaluation Loss: 0.367322
+  [BEST] Epoch 10 | Evaluation Loss: 0.356224
+  Epoch 10/35 | Train Loss: 0.3870 | Train Acc: 86.00% | Evaluation Loss: 0.3562 | Evaluation Acc: 87.45%
+  [BEST] Epoch 11 | Evaluation Loss: 0.354591
+  Epoch 15/35 | Train Loss: 0.3685 | Train Acc: 86.72% | Evaluation Loss: 0.3637 | Evaluation Acc: 87.01%
+  [BEST] Epoch 16 | Evaluation Loss: 0.350277
+  Epoch 20/35 | Train Loss: 0.3610 | Train Acc: 86.78% | Evaluation Loss: 0.3595 | Evaluation Acc: 87.58%
+  [BEST] Epoch 22 | Evaluation Loss: 0.346250
+  [BEST] Epoch 23 | Evaluation Loss: 0.343851
+  [BEST] Epoch 25 | Evaluation Loss: 0.341437
+  Epoch 25/35 | Train Loss: 0.3519 | Train Acc: 87.14% | Evaluation Loss: 0.3414 | Evaluation Acc: 88.50%
+  [BEST] Epoch 30 | Evaluation Loss: 0.340765
+  Epoch 30/35 | Train Loss: 0.3445 | Train Acc: 87.32% | Evaluation Loss: 0.3408 | Evaluation Acc: 88.30%
+  [BEST] Epoch 34 | Evaluation Loss: 0.335842
+  Epoch 35/35 | Train Loss: 0.3370 | Train Acc: 87.56% | Evaluation Loss: 0.3438 | Evaluation Acc: 88.45%
+
+============================================================
+TRAINING COMPLETED
+Best Epoch       : 34
+Best Eval Loss   : 0.335842
+Best Checkpoint  : ./saved_models\1_lop_an_256\best_checkpoint.pth
+Last Checkpoint  : ./saved_models\1_lop_an_256\last_checkpoint.pth
+============================================================
+
+=================================================================
+EXPERIMENT COMPLETED: 1 lớp ẩn (256)
+=================================================================
+Best Epoch             : 34
+Best Evaluation Loss   : 0.335842
+Best Checkpoint Acc    : 88.45%
+Last Epoch Eval Acc    : 88.45%
+Total Execution Time   : 1490.47s
+
+Best Checkpoint        : ./saved_models\1_lop_an_256\best_checkpoint.pth
+Last Checkpoint        : ./saved_models\1_lop_an_256\last_checkpoint.pth
+=================================================================
+
+[3/15]
+===== 3 lớp ẩn (256-128-64) | 784 -> 256 -> 128 -> 64 -> 10 | Adam (lr=0.001) | batch 64 | 35 epochs =====
+  [BEST] Epoch 01 | Evaluation Loss: 0.468843
+  Epoch 01/35 | Train Loss: 0.6777 | Train Acc: 74.79% | Evaluation Loss: 0.4688 | Evaluation Acc: 82.64%
+  [BEST] Epoch 02 | Evaluation Loss: 0.431327
+  [BEST] Epoch 03 | Evaluation Loss: 0.399708
+  [BEST] Epoch 04 | Evaluation Loss: 0.393964
+  [BEST] Epoch 05 | Evaluation Loss: 0.384539
+  Epoch 05/35 | Train Loss: 0.4378 | Train Acc: 84.16% | Evaluation Loss: 0.3845 | Evaluation Acc: 86.28%
+  [BEST] Epoch 06 | Evaluation Loss: 0.373964
+  [BEST] Epoch 07 | Evaluation Loss: 0.369211
+  [BEST] Epoch 08 | Evaluation Loss: 0.361985
+  [BEST] Epoch 10 | Evaluation Loss: 0.353844
+  Epoch 10/35 | Train Loss: 0.4003 | Train Acc: 85.49% | Evaluation Loss: 0.3538 | Evaluation Acc: 87.14%
+  [BEST] Epoch 11 | Evaluation Loss: 0.351503
+  [BEST] Epoch 14 | Evaluation Loss: 0.346039
+  Epoch 15/35 | Train Loss: 0.3785 | Train Acc: 86.19% | Evaluation Loss: 0.3533 | Evaluation Acc: 86.81%
+  [BEST] Epoch 16 | Evaluation Loss: 0.333815
+  [BEST] Epoch 18 | Evaluation Loss: 0.333533
+  Epoch 20/35 | Train Loss: 0.3666 | Train Acc: 86.70% | Evaluation Loss: 0.3346 | Evaluation Acc: 87.81%
+  [BEST] Epoch 21 | Evaluation Loss: 0.328656
+  [BEST] Epoch 25 | Evaluation Loss: 0.321162
+  Epoch 25/35 | Train Loss: 0.3563 | Train Acc: 86.99% | Evaluation Loss: 0.3212 | Evaluation Acc: 88.60%
+  Epoch 30/35 | Train Loss: 0.3491 | Train Acc: 87.32% | Evaluation Loss: 0.3223 | Evaluation Acc: 88.25%
+  [BEST] Epoch 34 | Evaluation Loss: 0.313230
+  Epoch 35/35 | Train Loss: 0.3398 | Train Acc: 87.66% | Evaluation Loss: 0.3346 | Evaluation Acc: 88.13%
+
+============================================================
+TRAINING COMPLETED
+Best Epoch       : 34
+Best Eval Loss   : 0.313230
+Best Checkpoint  : ./saved_models\3_lop_an_256_128_64\best_checkpoint.pth
+Last Checkpoint  : ./saved_models\3_lop_an_256_128_64\last_checkpoint.pth
+============================================================
+
+=================================================================
+EXPERIMENT COMPLETED: 3 lớp ẩn (256-128-64)
+=================================================================
+Best Epoch             : 34
+Best Evaluation Loss   : 0.313230
+Best Checkpoint Acc    : 88.53%
+Last Epoch Eval Acc    : 88.13%
+Total Execution Time   : 1498.14s
+
+Best Checkpoint        : ./saved_models\3_lop_an_256_128_64\best_checkpoint.pth
+Last Checkpoint        : ./saved_models\3_lop_an_256_128_64\last_checkpoint.pth
+=================================================================
+
+[4/15]
+===== Hẹp: 2 lớp ẩn (64-32) | 784 -> 64 -> 32 -> 10 | Adam (lr=0.001) | batch 64 | 35 epochs =====
+  [BEST] Epoch 01 | Evaluation Loss: 0.500199
+  Epoch 01/35 | Train Loss: 0.7597 | Train Acc: 71.94% | Evaluation Loss: 0.5002 | Evaluation Acc: 81.36%
+  [BEST] Epoch 02 | Evaluation Loss: 0.466004
+  [BEST] Epoch 03 | Evaluation Loss: 0.436638
+  [BEST] Epoch 04 | Evaluation Loss: 0.425987
+  [BEST] Epoch 05 | Evaluation Loss: 0.418157
+  Epoch 05/35 | Train Loss: 0.5125 | Train Acc: 81.66% | Evaluation Loss: 0.4182 | Evaluation Acc: 84.78%
+  [BEST] Epoch 06 | Evaluation Loss: 0.416130
+  [BEST] Epoch 07 | Evaluation Loss: 0.408254
+  [BEST] Epoch 08 | Evaluation Loss: 0.395049
+  [BEST] Epoch 10 | Evaluation Loss: 0.394968
+  Epoch 10/35 | Train Loss: 0.4759 | Train Acc: 82.67% | Evaluation Loss: 0.3950 | Evaluation Acc: 85.60%
+  [BEST] Epoch 12 | Evaluation Loss: 0.388825
+  [BEST] Epoch 13 | Evaluation Loss: 0.387210
+  [BEST] Epoch 15 | Evaluation Loss: 0.383785
+  Epoch 15/35 | Train Loss: 0.4636 | Train Acc: 83.14% | Evaluation Loss: 0.3838 | Evaluation Acc: 85.86%
+  [BEST] Epoch 16 | Evaluation Loss: 0.378012
+  [BEST] Epoch 18 | Evaluation Loss: 0.375906
+  Epoch 20/35 | Train Loss: 0.4506 | Train Acc: 83.66% | Evaluation Loss: 0.3806 | Evaluation Acc: 86.15%
+  [BEST] Epoch 21 | Evaluation Loss: 0.374947
+  [BEST] Epoch 22 | Evaluation Loss: 0.374765
+  [BEST] Epoch 25 | Evaluation Loss: 0.369822
+  Epoch 25/35 | Train Loss: 0.4458 | Train Acc: 83.96% | Evaluation Loss: 0.3698 | Evaluation Acc: 86.29%
+  [BEST] Epoch 26 | Evaluation Loss: 0.368273
+  [BEST] Epoch 27 | Evaluation Loss: 0.363314
+  [BEST] Epoch 30 | Evaluation Loss: 0.362777
+  Epoch 30/35 | Train Loss: 0.4383 | Train Acc: 84.14% | Evaluation Loss: 0.3628 | Evaluation Acc: 86.60%
+  [BEST] Epoch 31 | Evaluation Loss: 0.362571
+  Epoch 35/35 | Train Loss: 0.4325 | Train Acc: 84.18% | Evaluation Loss: 0.3638 | Evaluation Acc: 86.53%
+
+============================================================
+TRAINING COMPLETED
+Best Epoch       : 31
+Best Eval Loss   : 0.362571
+Best Checkpoint  : ./saved_models\hep_2_lop_an_64_32\best_checkpoint.pth
+Last Checkpoint  : ./saved_models\hep_2_lop_an_64_32\last_checkpoint.pth
+============================================================
+
+=================================================================
+EXPERIMENT COMPLETED: Hẹp: 2 lớp ẩn (64-32)
+=================================================================
+Best Epoch             : 31
+Best Evaluation Loss   : 0.362571
+Best Checkpoint Acc    : 86.77%
+Last Epoch Eval Acc    : 86.53%
+Total Execution Time   : 1491.26s
+
+Best Checkpoint        : ./saved_models\hep_2_lop_an_64_32\best_checkpoint.pth
+Last Checkpoint        : ./saved_models\hep_2_lop_an_64_32\last_checkpoint.pth
+=================================================================
+
+[5/15]
+===== Rộng: 2 lớp ẩn (512-256) | 784 -> 512 -> 256 -> 10 | Adam (lr=0.001) | batch 64 | 35 epochs =====
+  [BEST] Epoch 01 | Evaluation Loss: 0.439630
+  Epoch 01/35 | Train Loss: 0.5941 | Train Acc: 77.80% | Evaluation Loss: 0.4396 | Evaluation Acc: 83.98%
+  [BEST] Epoch 02 | Evaluation Loss: 0.406276
+  [BEST] Epoch 03 | Evaluation Loss: 0.378339
+  [BEST] Epoch 05 | Evaluation Loss: 0.364778
+  Epoch 05/35 | Train Loss: 0.4092 | Train Acc: 84.96% | Evaluation Loss: 0.3648 | Evaluation Acc: 86.88%
+  [BEST] Epoch 07 | Evaluation Loss: 0.352826
+  [BEST] Epoch 10 | Evaluation Loss: 0.340483
+  Epoch 10/35 | Train Loss: 0.3755 | Train Acc: 86.24% | Evaluation Loss: 0.3405 | Evaluation Acc: 87.70%
+  Epoch 15/35 | Train Loss: 0.3580 | Train Acc: 86.68% | Evaluation Loss: 0.3472 | Evaluation Acc: 87.15%
+  [BEST] Epoch 16 | Evaluation Loss: 0.334952
+  [BEST] Epoch 18 | Evaluation Loss: 0.326966
+  [BEST] Epoch 20 | Evaluation Loss: 0.324538
+  Epoch 20/35 | Train Loss: 0.3474 | Train Acc: 87.17% | Evaluation Loss: 0.3245 | Evaluation Acc: 88.30%
+  [BEST] Epoch 23 | Evaluation Loss: 0.323792
+  [BEST] Epoch 25 | Evaluation Loss: 0.323024
+  Epoch 25/35 | Train Loss: 0.3367 | Train Acc: 87.56% | Evaluation Loss: 0.3230 | Evaluation Acc: 88.62%
+  [BEST] Epoch 30 | Evaluation Loss: 0.314723
+  Epoch 30/35 | Train Loss: 0.3301 | Train Acc: 87.68% | Evaluation Loss: 0.3147 | Evaluation Acc: 88.67%
+  Epoch 35/35 | Train Loss: 0.3235 | Train Acc: 88.11% | Evaluation Loss: 0.3263 | Evaluation Acc: 88.29%
+
+============================================================
+TRAINING COMPLETED
+Best Epoch       : 30
+Best Eval Loss   : 0.314723
+Best Checkpoint  : ./saved_models\rong_2_lop_an_512_256\best_checkpoint.pth
+Last Checkpoint  : ./saved_models\rong_2_lop_an_512_256\last_checkpoint.pth
+============================================================
+
+=================================================================
+EXPERIMENT COMPLETED: Rộng: 2 lớp ẩn (512-256)
+=================================================================
+Best Epoch             : 30
+Best Evaluation Loss   : 0.314723
+Best Checkpoint Acc    : 88.67%
+Last Epoch Eval Acc    : 88.29%
+Total Execution Time   : 1523.13s
+
+Best Checkpoint        : ./saved_models\rong_2_lop_an_512_256\best_checkpoint.pth
+Last Checkpoint        : ./saved_models\rong_2_lop_an_512_256\last_checkpoint.pth
+=================================================================
+
+[6/15]
+===== Dropout 0.0 | 784 -> 256 -> 128 -> 10 | Adam (lr=0.001) | batch 64 | 35 epochs =====
+  [BEST] Epoch 01 | Evaluation Loss: 0.458464
+  Epoch 01/35 | Train Loss: 0.5664 | Train Acc: 78.78% | Evaluation Loss: 0.4585 | Evaluation Acc: 83.16%
+  [BEST] Epoch 02 | Evaluation Loss: 0.396919
+  [BEST] Epoch 03 | Evaluation Loss: 0.379163
+  [BEST] Epoch 04 | Evaluation Loss: 0.367851
+  Epoch 05/35 | Train Loss: 0.3661 | Train Acc: 86.32% | Evaluation Loss: 0.3761 | Evaluation Acc: 86.92%
+  [BEST] Epoch 06 | Evaluation Loss: 0.354157
+  [BEST] Epoch 07 | Evaluation Loss: 0.338171
+  [BEST] Epoch 08 | Evaluation Loss: 0.331755
+  Epoch 10/35 | Train Loss: 0.3267 | Train Acc: 87.66% | Evaluation Loss: 0.3457 | Evaluation Acc: 87.58%
+  [BEST] Epoch 12 | Evaluation Loss: 0.328607
+  [BEST] Epoch 14 | Evaluation Loss: 0.325947
+  Epoch 15/35 | Train Loss: 0.3018 | Train Acc: 88.66% | Evaluation Loss: 0.3380 | Evaluation Acc: 87.66%
+  [BEST] Epoch 18 | Evaluation Loss: 0.319969
+  [BEST] Epoch 19 | Evaluation Loss: 0.318628
+  Epoch 20/35 | Train Loss: 0.2880 | Train Acc: 89.17% | Evaluation Loss: 0.3388 | Evaluation Acc: 87.96%
+  [BEST] Epoch 22 | Evaluation Loss: 0.317222
+  Epoch 25/35 | Train Loss: 0.2737 | Train Acc: 89.72% | Evaluation Loss: 0.3305 | Evaluation Acc: 88.53%
+  Epoch 30/35 | Train Loss: 0.2662 | Train Acc: 89.89% | Evaluation Loss: 0.3213 | Evaluation Acc: 88.89%
+  Epoch 35/35 | Train Loss: 0.2542 | Train Acc: 90.39% | Evaluation Loss: 0.3275 | Evaluation Acc: 88.96%
+
+============================================================
+TRAINING COMPLETED
+Best Epoch       : 22
+Best Eval Loss   : 0.317222
+Best Checkpoint  : ./saved_models\dropout_0_0\best_checkpoint.pth
+Last Checkpoint  : ./saved_models\dropout_0_0\last_checkpoint.pth
+============================================================
+
+=================================================================
+EXPERIMENT COMPLETED: Dropout 0.0
+=================================================================
+Best Epoch             : 22
+Best Evaluation Loss   : 0.317222
+Best Checkpoint Acc    : 88.40%
+Last Epoch Eval Acc    : 88.96%
+Total Execution Time   : 1403.62s
+
+Best Checkpoint        : ./saved_models\dropout_0_0\best_checkpoint.pth
+Last Checkpoint        : ./saved_models\dropout_0_0\last_checkpoint.pth
+=================================================================
+
+[7/15]
+===== Dropout 0.5 | 784 -> 256 -> 128 -> 10 | Adam (lr=0.001) | batch 64 | 35 epochs =====
+  [BEST] Epoch 01 | Evaluation Loss: 0.492177
+  Epoch 01/35 | Train Loss: 0.7496 | Train Acc: 72.17% | Evaluation Loss: 0.4922 | Evaluation Acc: 81.82%
+  [BEST] Epoch 02 | Evaluation Loss: 0.467578
+  [BEST] Epoch 03 | Evaluation Loss: 0.435237
+  [BEST] Epoch 04 | Evaluation Loss: 0.427968
+  [BEST] Epoch 05 | Evaluation Loss: 0.420587
+  Epoch 05/35 | Train Loss: 0.5328 | Train Acc: 80.67% | Evaluation Loss: 0.4206 | Evaluation Acc: 84.59%
+  [BEST] Epoch 06 | Evaluation Loss: 0.406852
+  [BEST] Epoch 07 | Evaluation Loss: 0.404323
+  [BEST] Epoch 08 | Evaluation Loss: 0.401414
+  [BEST] Epoch 09 | Evaluation Loss: 0.390874
+  Epoch 10/35 | Train Loss: 0.4941 | Train Acc: 82.29% | Evaluation Loss: 0.3945 | Evaluation Acc: 85.07%
+  [BEST] Epoch 12 | Evaluation Loss: 0.386912
+  [BEST] Epoch 13 | Evaluation Loss: 0.385489
+  [BEST] Epoch 14 | Evaluation Loss: 0.383508
+  [BEST] Epoch 15 | Evaluation Loss: 0.377890
+  Epoch 15/35 | Train Loss: 0.4800 | Train Acc: 82.66% | Evaluation Loss: 0.3779 | Evaluation Acc: 85.99%
+  [BEST] Epoch 16 | Evaluation Loss: 0.374151
+  [BEST] Epoch 17 | Evaluation Loss: 0.373576
+  [BEST] Epoch 18 | Evaluation Loss: 0.368848
+  [BEST] Epoch 20 | Evaluation Loss: 0.366799
+  Epoch 20/35 | Train Loss: 0.4726 | Train Acc: 83.19% | Evaluation Loss: 0.3668 | Evaluation Acc: 86.79%
+  [BEST] Epoch 24 | Evaluation Loss: 0.359686
+  [BEST] Epoch 25 | Evaluation Loss: 0.359241
+  Epoch 25/35 | Train Loss: 0.4600 | Train Acc: 83.56% | Evaluation Loss: 0.3592 | Evaluation Acc: 86.85%
+  [BEST] Epoch 30 | Evaluation Loss: 0.359207
+  Epoch 30/35 | Train Loss: 0.4510 | Train Acc: 83.85% | Evaluation Loss: 0.3592 | Evaluation Acc: 86.55%
+  [BEST] Epoch 33 | Evaluation Loss: 0.357076
+  [BEST] Epoch 35 | Evaluation Loss: 0.354618
+  Epoch 35/35 | Train Loss: 0.4480 | Train Acc: 83.89% | Evaluation Loss: 0.3546 | Evaluation Acc: 87.10%
+
+============================================================
+TRAINING COMPLETED
+Best Epoch       : 35
+Best Eval Loss   : 0.354618
+Best Checkpoint  : ./saved_models\dropout_0_5\best_checkpoint.pth
+Last Checkpoint  : ./saved_models\dropout_0_5\last_checkpoint.pth
+============================================================
+
+=================================================================
+EXPERIMENT COMPLETED: Dropout 0.5
+=================================================================
+Best Epoch             : 35
+Best Evaluation Loss   : 0.354618
+Best Checkpoint Acc    : 87.10%
+Last Epoch Eval Acc    : 87.10%
+Total Execution Time   : 1245.35s
+
+Best Checkpoint        : ./saved_models\dropout_0_5\best_checkpoint.pth
+Last Checkpoint        : ./saved_models\dropout_0_5\last_checkpoint.pth
+=================================================================
+
+[8/15]
+===== Activation Tanh | 784 -> 256 -> 128 -> 10 | Adam (lr=0.001) | batch 64 | 35 epochs =====
+  [BEST] Epoch 01 | Evaluation Loss: 0.465674
+  Epoch 01/35 | Train Loss: 0.6142 | Train Acc: 77.40% | Evaluation Loss: 0.4657 | Evaluation Acc: 83.20%
+  [BEST] Epoch 02 | Evaluation Loss: 0.442123
+  [BEST] Epoch 03 | Evaluation Loss: 0.415976
+  [BEST] Epoch 04 | Evaluation Loss: 0.397497
+  [BEST] Epoch 05 | Evaluation Loss: 0.392005
+  Epoch 05/35 | Train Loss: 0.4495 | Train Acc: 83.58% | Evaluation Loss: 0.3920 | Evaluation Acc: 85.93%
+  [BEST] Epoch 07 | Evaluation Loss: 0.388316
+  [BEST] Epoch 08 | Evaluation Loss: 0.384629
+  [BEST] Epoch 09 | Evaluation Loss: 0.376744
+  Epoch 10/35 | Train Loss: 0.4250 | Train Acc: 84.26% | Evaluation Loss: 0.3813 | Evaluation Acc: 86.05%
+  [BEST] Epoch 11 | Evaluation Loss: 0.372373
+  [BEST] Epoch 13 | Evaluation Loss: 0.370780
+  [BEST] Epoch 14 | Evaluation Loss: 0.365006
+  Epoch 15/35 | Train Loss: 0.4111 | Train Acc: 84.84% | Evaluation Loss: 0.3685 | Evaluation Acc: 86.34%
+  [BEST] Epoch 16 | Evaluation Loss: 0.361181
+  [BEST] Epoch 19 | Evaluation Loss: 0.355966
+  Epoch 20/35 | Train Loss: 0.3990 | Train Acc: 85.37% | Evaluation Loss: 0.3704 | Evaluation Acc: 86.24%
+  [BEST] Epoch 25 | Evaluation Loss: 0.354440
+  Epoch 25/35 | Train Loss: 0.3947 | Train Acc: 85.46% | Evaluation Loss: 0.3544 | Evaluation Acc: 87.18%
+  [BEST] Epoch 28 | Evaluation Loss: 0.352345
+  [BEST] Epoch 29 | Evaluation Loss: 0.346755
+  Epoch 30/35 | Train Loss: 0.3966 | Train Acc: 85.35% | Evaluation Loss: 0.3487 | Evaluation Acc: 87.25%
+  Epoch 35/35 | Train Loss: 0.3918 | Train Acc: 85.50% | Evaluation Loss: 0.3538 | Evaluation Acc: 87.45%
+
+============================================================
+TRAINING COMPLETED
+Best Epoch       : 29
+Best Eval Loss   : 0.346755
+Best Checkpoint  : ./saved_models\activation_tanh\best_checkpoint.pth
+Last Checkpoint  : ./saved_models\activation_tanh\last_checkpoint.pth
+============================================================
+
+=================================================================
+EXPERIMENT COMPLETED: Activation Tanh
+=================================================================
+Best Epoch             : 29
+Best Evaluation Loss   : 0.346755
+Best Checkpoint Acc    : 87.05%
+Last Epoch Eval Acc    : 87.45%
+Total Execution Time   : 1246.89s
+
+Best Checkpoint        : ./saved_models\activation_tanh\best_checkpoint.pth
+Last Checkpoint        : ./saved_models\activation_tanh\last_checkpoint.pth
+=================================================================
+
+[9/15]
+===== Activation RELU | 784 -> 256 -> 128 -> 10 | Adam (lr=0.001) | batch 64 | 35 epochs =====
+  [BEST] Epoch 01 | Evaluation Loss: 0.447885
+  Epoch 01/35 | Train Loss: 0.6179 | Train Acc: 76.85% | Evaluation Loss: 0.4479 | Evaluation Acc: 83.29%
+  [BEST] Epoch 02 | Evaluation Loss: 0.435936
+  [BEST] Epoch 03 | Evaluation Loss: 0.397640
+  [BEST] Epoch 04 | Evaluation Loss: 0.373079
+  Epoch 05/35 | Train Loss: 0.4165 | Train Acc: 84.65% | Evaluation Loss: 0.3745 | Evaluation Acc: 86.53%
+  [BEST] Epoch 06 | Evaluation Loss: 0.358134
+  [BEST] Epoch 08 | Evaluation Loss: 0.346219
+  Epoch 10/35 | Train Loss: 0.3826 | Train Acc: 85.81% | Evaluation Loss: 0.3483 | Evaluation Acc: 87.27%
+  [BEST] Epoch 13 | Evaluation Loss: 0.341422
+  [BEST] Epoch 14 | Evaluation Loss: 0.337705
+  Epoch 15/35 | Train Loss: 0.3658 | Train Acc: 86.45% | Evaluation Loss: 0.3502 | Evaluation Acc: 86.93%
+  [BEST] Epoch 16 | Evaluation Loss: 0.336519
+  [BEST] Epoch 18 | Evaluation Loss: 0.334048
+  [BEST] Epoch 19 | Evaluation Loss: 0.328520
+  Epoch 20/35 | Train Loss: 0.3559 | Train Acc: 86.91% | Evaluation Loss: 0.3323 | Evaluation Acc: 87.42%
+  [BEST] Epoch 22 | Evaluation Loss: 0.322232
+  [BEST] Epoch 25 | Evaluation Loss: 0.321530
+  Epoch 25/35 | Train Loss: 0.3423 | Train Acc: 87.33% | Evaluation Loss: 0.3215 | Evaluation Acc: 88.41%
+  [BEST] Epoch 30 | Evaluation Loss: 0.320214
+  Epoch 30/35 | Train Loss: 0.3428 | Train Acc: 87.47% | Evaluation Loss: 0.3202 | Evaluation Acc: 88.45%
+  [BEST] Epoch 34 | Evaluation Loss: 0.312283
+  Epoch 35/35 | Train Loss: 0.3339 | Train Acc: 87.67% | Evaluation Loss: 0.3186 | Evaluation Acc: 88.61%
+
+============================================================
+TRAINING COMPLETED
+Best Epoch       : 34
+Best Eval Loss   : 0.312283
+Best Checkpoint  : ./saved_models\activation_relu\best_checkpoint.pth
+Last Checkpoint  : ./saved_models\activation_relu\last_checkpoint.pth
+============================================================
+
+=================================================================
+EXPERIMENT COMPLETED: Activation RELU
+=================================================================
+Best Epoch             : 34
+Best Evaluation Loss   : 0.312283
+Best Checkpoint Acc    : 88.70%
+Last Epoch Eval Acc    : 88.61%
+Total Execution Time   : 1239.20s
+
+Best Checkpoint        : ./saved_models\activation_relu\best_checkpoint.pth
+Last Checkpoint        : ./saved_models\activation_relu\last_checkpoint.pth
+=================================================================
+
+[10/15]
+===== Adam lr=0.0001 | 784 -> 256 -> 128 -> 10 | Adam (lr=0.0001) | batch 64 | 35 epochs =====
+  [BEST] Epoch 01 | Evaluation Loss: 0.554994
+  Epoch 01/35 | Train Loss: 0.8394 | Train Acc: 69.95% | Evaluation Loss: 0.5550 | Evaluation Acc: 79.16%
+  [BEST] Epoch 02 | Evaluation Loss: 0.494206
+  [BEST] Epoch 03 | Evaluation Loss: 0.460383
+  [BEST] Epoch 04 | Evaluation Loss: 0.433292
+  [BEST] Epoch 05 | Evaluation Loss: 0.420280
+  Epoch 05/35 | Train Loss: 0.4823 | Train Acc: 82.37% | Evaluation Loss: 0.4203 | Evaluation Acc: 84.68%
+  [BEST] Epoch 06 | Evaluation Loss: 0.405570
+  [BEST] Epoch 07 | Evaluation Loss: 0.393103
+  [BEST] Epoch 08 | Evaluation Loss: 0.386577
+  [BEST] Epoch 09 | Evaluation Loss: 0.376494
+  [BEST] Epoch 10 | Evaluation Loss: 0.370731
+  Epoch 10/35 | Train Loss: 0.4163 | Train Acc: 84.94% | Evaluation Loss: 0.3707 | Evaluation Acc: 86.54%
+  [BEST] Epoch 11 | Evaluation Loss: 0.368634
+  [BEST] Epoch 12 | Evaluation Loss: 0.365023
+  [BEST] Epoch 13 | Evaluation Loss: 0.359194
+  [BEST] Epoch 14 | Evaluation Loss: 0.352293
+  [BEST] Epoch 15 | Evaluation Loss: 0.351518
+  Epoch 15/35 | Train Loss: 0.3827 | Train Acc: 86.03% | Evaluation Loss: 0.3515 | Evaluation Acc: 87.43%
+  [BEST] Epoch 16 | Evaluation Loss: 0.343991
+  [BEST] Epoch 18 | Evaluation Loss: 0.341094
+  [BEST] Epoch 20 | Evaluation Loss: 0.335617
+  Epoch 20/35 | Train Loss: 0.3649 | Train Acc: 86.81% | Evaluation Loss: 0.3356 | Evaluation Acc: 87.75%
+  [BEST] Epoch 22 | Evaluation Loss: 0.332889
+  [BEST] Epoch 24 | Evaluation Loss: 0.325039
+  [BEST] Epoch 25 | Evaluation Loss: 0.322917
+  Epoch 25/35 | Train Loss: 0.3473 | Train Acc: 87.31% | Evaluation Loss: 0.3229 | Evaluation Acc: 88.48%
+  [BEST] Epoch 28 | Evaluation Loss: 0.319860
+  [BEST] Epoch 29 | Evaluation Loss: 0.317762
+  Epoch 30/35 | Train Loss: 0.3386 | Train Acc: 87.54% | Evaluation Loss: 0.3192 | Evaluation Acc: 88.54%
+  [BEST] Epoch 31 | Evaluation Loss: 0.315767
+  [BEST] Epoch 32 | Evaluation Loss: 0.314909
+  [BEST] Epoch 34 | Evaluation Loss: 0.313997
+  Epoch 35/35 | Train Loss: 0.3287 | Train Acc: 87.86% | Evaluation Loss: 0.3143 | Evaluation Acc: 88.51%
+
+============================================================
+TRAINING COMPLETED
+Best Epoch       : 34
+Best Eval Loss   : 0.313997
+Best Checkpoint  : ./saved_models\adam_lr_0_0001\best_checkpoint.pth
+Last Checkpoint  : ./saved_models\adam_lr_0_0001\last_checkpoint.pth
+============================================================
+
+=================================================================
+EXPERIMENT COMPLETED: Adam lr=0.0001
+=================================================================
+Best Epoch             : 34
+Best Evaluation Loss   : 0.313997
+Best Checkpoint Acc    : 88.73%
+Last Epoch Eval Acc    : 88.51%
+Total Execution Time   : 1237.17s
+
+Best Checkpoint        : ./saved_models\adam_lr_0_0001\best_checkpoint.pth
+Last Checkpoint        : ./saved_models\adam_lr_0_0001\last_checkpoint.pth
+=================================================================
+
+[11/15]
+===== Adam lr=0.01 | 784 -> 256 -> 128 -> 10 | Adam (lr=0.01) | batch 64 | 35 epochs =====
+  [BEST] Epoch 01 | Evaluation Loss: 0.606821
+  Epoch 01/35 | Train Loss: 0.8356 | Train Acc: 69.80% | Evaluation Loss: 0.6068 | Evaluation Acc: 79.24%
+  [BEST] Epoch 03 | Evaluation Loss: 0.572437
+  [BEST] Epoch 04 | Evaluation Loss: 0.569726
+  [BEST] Epoch 05 | Evaluation Loss: 0.564376
+  Epoch 05/35 | Train Loss: 0.7311 | Train Acc: 75.09% | Evaluation Loss: 0.5644 | Evaluation Acc: 80.38%
+  [BEST] Epoch 07 | Evaluation Loss: 0.536226
+  Epoch 10/35 | Train Loss: 0.7318 | Train Acc: 75.13% | Evaluation Loss: 0.5430 | Evaluation Acc: 81.03%
+  Epoch 15/35 | Train Loss: 0.7132 | Train Acc: 75.08% | Evaluation Loss: 0.5686 | Evaluation Acc: 79.94%
+  [BEST] Epoch 19 | Evaluation Loss: 0.533791
+  [BEST] Epoch 20 | Evaluation Loss: 0.528743
+  Epoch 20/35 | Train Loss: 0.7605 | Train Acc: 74.19% | Evaluation Loss: 0.5287 | Evaluation Acc: 82.03%
+  Epoch 25/35 | Train Loss: 0.7171 | Train Acc: 75.26% | Evaluation Loss: 0.5379 | Evaluation Acc: 81.85%
+  Epoch 30/35 | Train Loss: 0.7701 | Train Acc: 74.35% | Evaluation Loss: 0.5701 | Evaluation Acc: 81.62%
+  Epoch 35/35 | Train Loss: 0.7469 | Train Acc: 74.78% | Evaluation Loss: 0.5697 | Evaluation Acc: 81.94%
+
+============================================================
+TRAINING COMPLETED
+Best Epoch       : 20
+Best Eval Loss   : 0.528743
+Best Checkpoint  : ./saved_models\adam_lr_0_01\best_checkpoint.pth
+Last Checkpoint  : ./saved_models\adam_lr_0_01\last_checkpoint.pth
+============================================================
+
+=================================================================
+EXPERIMENT COMPLETED: Adam lr=0.01
+=================================================================
+Best Epoch             : 20
+Best Evaluation Loss   : 0.528743
+Best Checkpoint Acc    : 82.03%
+Last Epoch Eval Acc    : 81.94%
+Total Execution Time   : 1247.78s
+
+Best Checkpoint        : ./saved_models\adam_lr_0_01\best_checkpoint.pth
+Last Checkpoint        : ./saved_models\adam_lr_0_01\last_checkpoint.pth
+=================================================================
+
+[12/15]
+===== SGD lr=0.01 momentum=0.9 | 784 -> 256 -> 128 -> 10 | SGD (lr=0.01, momentum=0.9) | batch 64 | 35 epochs =====
+  [BEST] Epoch 01 | Evaluation Loss: 0.489094
+  Epoch 01/35 | Train Loss: 0.6873 | Train Acc: 74.60% | Evaluation Loss: 0.4891 | Evaluation Acc: 81.70%
+  [BEST] Epoch 02 | Evaluation Loss: 0.436816
+  [BEST] Epoch 03 | Evaluation Loss: 0.405185
+  [BEST] Epoch 04 | Evaluation Loss: 0.376383
+  [BEST] Epoch 05 | Evaluation Loss: 0.370957
+  Epoch 05/35 | Train Loss: 0.4245 | Train Acc: 84.47% | Evaluation Loss: 0.3710 | Evaluation Acc: 86.71%
+  [BEST] Epoch 06 | Evaluation Loss: 0.361103
+  [BEST] Epoch 07 | Evaluation Loss: 0.358706
+  [BEST] Epoch 08 | Evaluation Loss: 0.347227
+  [BEST] Epoch 09 | Evaluation Loss: 0.346656
+  Epoch 10/35 | Train Loss: 0.3765 | Train Acc: 86.12% | Evaluation Loss: 0.3525 | Evaluation Acc: 86.80%
+  [BEST] Epoch 11 | Evaluation Loss: 0.338191
+  [BEST] Epoch 13 | Evaluation Loss: 0.336737
+  [BEST] Epoch 14 | Evaluation Loss: 0.330274
+  Epoch 15/35 | Train Loss: 0.3552 | Train Acc: 87.01% | Evaluation Loss: 0.3399 | Evaluation Acc: 87.39%
+  [BEST] Epoch 16 | Evaluation Loss: 0.323505
+  [BEST] Epoch 19 | Evaluation Loss: 0.317260
+  Epoch 20/35 | Train Loss: 0.3418 | Train Acc: 87.44% | Evaluation Loss: 0.3288 | Evaluation Acc: 88.10%
+  [BEST] Epoch 23 | Evaluation Loss: 0.312464
+  [BEST] Epoch 24 | Evaluation Loss: 0.310029
+  [BEST] Epoch 25 | Evaluation Loss: 0.309854
+  Epoch 25/35 | Train Loss: 0.3300 | Train Acc: 87.78% | Evaluation Loss: 0.3099 | Evaluation Acc: 88.79%
+  [BEST] Epoch 29 | Evaluation Loss: 0.307196
+  [BEST] Epoch 30 | Evaluation Loss: 0.301816
+  Epoch 30/35 | Train Loss: 0.3240 | Train Acc: 87.90% | Evaluation Loss: 0.3018 | Evaluation Acc: 88.80%
+  [BEST] Epoch 35 | Evaluation Loss: 0.301729
+  Epoch 35/35 | Train Loss: 0.3136 | Train Acc: 88.31% | Evaluation Loss: 0.3017 | Evaluation Acc: 89.00%
+
+============================================================
+TRAINING COMPLETED
+Best Epoch       : 35
+Best Eval Loss   : 0.301729
+Best Checkpoint  : ./saved_models\sgd_lr_0_01_momentum_0_9\best_checkpoint.pth
+Last Checkpoint  : ./saved_models\sgd_lr_0_01_momentum_0_9\last_checkpoint.pth
+============================================================
+
+=================================================================
+EXPERIMENT COMPLETED: SGD lr=0.01 momentum=0.9
+=================================================================
+Best Epoch             : 35
+Best Evaluation Loss   : 0.301729
+Best Checkpoint Acc    : 89.00%
+Last Epoch Eval Acc    : 89.00%
+Total Execution Time   : 1224.62s
+
+Best Checkpoint        : ./saved_models\sgd_lr_0_01_momentum_0_9\best_checkpoint.pth
+Last Checkpoint        : ./saved_models\sgd_lr_0_01_momentum_0_9\last_checkpoint.pth
+=================================================================
+
+[13/15]
+===== Có BatchNorm | 784 -> 256 -> 128 -> 10 | Adam (lr=0.001) | batch 64 | 35 epochs =====
+  [BEST] Epoch 01 | Evaluation Loss: 0.430243
+  Epoch 01/35 | Train Loss: 0.6146 | Train Acc: 77.92% | Evaluation Loss: 0.4302 | Evaluation Acc: 84.36%
+  [BEST] Epoch 02 | Evaluation Loss: 0.408989
+  [BEST] Epoch 03 | Evaluation Loss: 0.380327
+  [BEST] Epoch 04 | Evaluation Loss: 0.363815
+  [BEST] Epoch 05 | Evaluation Loss: 0.359463
+  Epoch 05/35 | Train Loss: 0.4211 | Train Acc: 84.50% | Evaluation Loss: 0.3595 | Evaluation Acc: 86.78%
+  [BEST] Epoch 06 | Evaluation Loss: 0.349707
+  [BEST] Epoch 07 | Evaluation Loss: 0.338140
+  [BEST] Epoch 08 | Evaluation Loss: 0.336145
+  [BEST] Epoch 10 | Evaluation Loss: 0.328261
+  Epoch 10/35 | Train Loss: 0.3797 | Train Acc: 86.00% | Evaluation Loss: 0.3283 | Evaluation Acc: 87.87%
+  [BEST] Epoch 11 | Evaluation Loss: 0.325839
+  [BEST] Epoch 13 | Evaluation Loss: 0.313890
+  [BEST] Epoch 15 | Evaluation Loss: 0.312493
+  Epoch 15/35 | Train Loss: 0.3561 | Train Acc: 86.92% | Evaluation Loss: 0.3125 | Evaluation Acc: 88.36%
+  [BEST] Epoch 17 | Evaluation Loss: 0.306453
+  [BEST] Epoch 20 | Evaluation Loss: 0.305415
+  Epoch 20/35 | Train Loss: 0.3445 | Train Acc: 87.25% | Evaluation Loss: 0.3054 | Evaluation Acc: 88.66%
+  [BEST] Epoch 22 | Evaluation Loss: 0.303587
+  [BEST] Epoch 23 | Evaluation Loss: 0.301772
+  [BEST] Epoch 24 | Evaluation Loss: 0.295917
+  Epoch 25/35 | Train Loss: 0.3311 | Train Acc: 87.61% | Evaluation Loss: 0.2989 | Evaluation Acc: 88.93%
+  [BEST] Epoch 26 | Evaluation Loss: 0.295336
+  [BEST] Epoch 29 | Evaluation Loss: 0.294228
+  [BEST] Epoch 30 | Evaluation Loss: 0.291964
+  Epoch 30/35 | Train Loss: 0.3249 | Train Acc: 87.96% | Evaluation Loss: 0.2920 | Evaluation Acc: 89.18%
+  [BEST] Epoch 34 | Evaluation Loss: 0.289237
+  Epoch 35/35 | Train Loss: 0.3165 | Train Acc: 88.15% | Evaluation Loss: 0.2919 | Evaluation Acc: 89.19%
+
+============================================================
+TRAINING COMPLETED
+Best Epoch       : 34
+Best Eval Loss   : 0.289237
+Best Checkpoint  : ./saved_models\co_batchnorm\best_checkpoint.pth
+Last Checkpoint  : ./saved_models\co_batchnorm\last_checkpoint.pth
+============================================================
+
+=================================================================
+EXPERIMENT COMPLETED: Có BatchNorm
+=================================================================
+Best Epoch             : 34
+Best Evaluation Loss   : 0.289237
+Best Checkpoint Acc    : 89.40%
+Last Epoch Eval Acc    : 89.19%
+Total Execution Time   : 2449.57s
+
+Best Checkpoint        : ./saved_models\co_batchnorm\best_checkpoint.pth
+Last Checkpoint        : ./saved_models\co_batchnorm\last_checkpoint.pth
+=================================================================
+
+[14/15]
+===== Batch size 32 | 784 -> 256 -> 128 -> 10 | Adam (lr=0.001) | batch 32 | 35 epochs =====
+  [BEST] Epoch 01 | Evaluation Loss: 0.462345
+  Epoch 01/35 | Train Loss: 0.6194 | Train Acc: 76.96% | Evaluation Loss: 0.4623 | Evaluation Acc: 82.94%
+  [BEST] Epoch 02 | Evaluation Loss: 0.430297
+  [BEST] Epoch 03 | Evaluation Loss: 0.398128
+  [BEST] Epoch 04 | Evaluation Loss: 0.387350
+  [BEST] Epoch 05 | Evaluation Loss: 0.380898
+  Epoch 05/35 | Train Loss: 0.4350 | Train Acc: 84.06% | Evaluation Loss: 0.3809 | Evaluation Acc: 86.15%
+  [BEST] Epoch 07 | Evaluation Loss: 0.367031
+  [BEST] Epoch 08 | Evaluation Loss: 0.364859
+  [BEST] Epoch 10 | Evaluation Loss: 0.353497
+  Epoch 10/35 | Train Loss: 0.4060 | Train Acc: 85.13% | Evaluation Loss: 0.3535 | Evaluation Acc: 86.80%
+  [BEST] Epoch 12 | Evaluation Loss: 0.345066
+  [BEST] Epoch 14 | Evaluation Loss: 0.342782
+  Epoch 15/35 | Train Loss: 0.3887 | Train Acc: 85.73% | Evaluation Loss: 0.3507 | Evaluation Acc: 87.53%
+  [BEST] Epoch 17 | Evaluation Loss: 0.338388
+  [BEST] Epoch 19 | Evaluation Loss: 0.336223
+  Epoch 20/35 | Train Loss: 0.3768 | Train Acc: 86.36% | Evaluation Loss: 0.3540 | Evaluation Acc: 86.84%
+  Epoch 25/35 | Train Loss: 0.3708 | Train Acc: 86.50% | Evaluation Loss: 0.3374 | Evaluation Acc: 88.02%
+  [BEST] Epoch 29 | Evaluation Loss: 0.332307
+  Epoch 30/35 | Train Loss: 0.3634 | Train Acc: 86.78% | Evaluation Loss: 0.3428 | Evaluation Acc: 87.97%
+  [BEST] Epoch 34 | Evaluation Loss: 0.327832
+  Epoch 35/35 | Train Loss: 0.3601 | Train Acc: 86.96% | Evaluation Loss: 0.3366 | Evaluation Acc: 88.02%
+
+============================================================
+TRAINING COMPLETED
+Best Epoch       : 34
+Best Eval Loss   : 0.327832
+Best Checkpoint  : ./saved_models\batch_size_32\best_checkpoint.pth
+Last Checkpoint  : ./saved_models\batch_size_32\last_checkpoint.pth
+============================================================
+
+=================================================================
+EXPERIMENT COMPLETED: Batch size 32
+=================================================================
+Best Epoch             : 34
+Best Evaluation Loss   : 0.327832
+Best Checkpoint Acc    : 88.16%
+Last Epoch Eval Acc    : 88.02%
+Total Execution Time   : 4192.24s
+
+Best Checkpoint        : ./saved_models\batch_size_32\best_checkpoint.pth
+Last Checkpoint        : ./saved_models\batch_size_32\last_checkpoint.pth
+=================================================================
+
+[15/15]
+===== Batch size 256 | 784 -> 256 -> 128 -> 10 | Adam (lr=0.001) | batch 256 | 35 epochs =====
+  [BEST] Epoch 01 | Evaluation Loss: 0.472438
+  Epoch 01/35 | Train Loss: 0.6877 | Train Acc: 74.68% | Evaluation Loss: 0.4724 | Evaluation Acc: 82.31%
+  [BEST] Epoch 02 | Evaluation Loss: 0.447964
+  [BEST] Epoch 03 | Evaluation Loss: 0.401961
+  [BEST] Epoch 04 | Evaluation Loss: 0.375839
+  [BEST] Epoch 05 | Evaluation Loss: 0.371051
+  Epoch 05/35 | Train Loss: 0.4200 | Train Acc: 84.67% | Evaluation Loss: 0.3711 | Evaluation Acc: 86.54%
+  [BEST] Epoch 06 | Evaluation Loss: 0.370766
+  [BEST] Epoch 07 | Evaluation Loss: 0.354462
+  [BEST] Epoch 08 | Evaluation Loss: 0.350196
+  [BEST] Epoch 09 | Evaluation Loss: 0.346771
+  [BEST] Epoch 10 | Evaluation Loss: 0.344639
+  Epoch 10/35 | Train Loss: 0.3727 | Train Acc: 86.08% | Evaluation Loss: 0.3446 | Evaluation Acc: 87.05%
+  [BEST] Epoch 13 | Evaluation Loss: 0.339228
+  [BEST] Epoch 14 | Evaluation Loss: 0.332491
+  [BEST] Epoch 15 | Evaluation Loss: 0.330481
+  Epoch 15/35 | Train Loss: 0.3554 | Train Acc: 86.92% | Evaluation Loss: 0.3305 | Evaluation Acc: 88.00%
+  [BEST] Epoch 16 | Evaluation Loss: 0.323888
+  [BEST] Epoch 17 | Evaluation Loss: 0.323557
+  [BEST] Epoch 18 | Evaluation Loss: 0.323064
+  [BEST] Epoch 20 | Evaluation Loss: 0.318139
+  Epoch 20/35 | Train Loss: 0.3384 | Train Acc: 87.66% | Evaluation Loss: 0.3181 | Evaluation Acc: 88.39%
+  [BEST] Epoch 22 | Evaluation Loss: 0.316757
+  [BEST] Epoch 23 | Evaluation Loss: 0.315144
+  [BEST] Epoch 24 | Evaluation Loss: 0.309577
+  Epoch 25/35 | Train Loss: 0.3266 | Train Acc: 87.78% | Evaluation Loss: 0.3101 | Evaluation Acc: 88.84%
+  [BEST] Epoch 27 | Evaluation Loss: 0.309478
+  [BEST] Epoch 28 | Evaluation Loss: 0.302868
+  Epoch 30/35 | Train Loss: 0.3208 | Train Acc: 87.99% | Evaluation Loss: 0.3099 | Evaluation Acc: 88.68%
+  Epoch 35/35 | Train Loss: 0.3114 | Train Acc: 88.35% | Evaluation Loss: 0.3053 | Evaluation Acc: 88.78%
+
+============================================================
+TRAINING COMPLETED
+Best Epoch       : 28
+Best Eval Loss   : 0.302868
+Best Checkpoint  : ./saved_models\batch_size_256\best_checkpoint.pth
+Last Checkpoint  : ./saved_models\batch_size_256\last_checkpoint.pth
+============================================================
+
+=================================================================
+EXPERIMENT COMPLETED: Batch size 256
+=================================================================
+Best Epoch             : 28
+Best Evaluation Loss   : 0.302868
+Best Checkpoint Acc    : 89.16%
+Last Epoch Eval Acc    : 88.78%
+Total Execution Time   : 3292.53s
+
+Best Checkpoint        : ./saved_models\batch_size_256\best_checkpoint.pth
+Last Checkpoint        : ./saved_models\batch_size_256\last_checkpoint.pth
+=================================================================
+
+All experiments completed.
