@@ -1,0 +1,242 @@
+CHECKPOINT VERIFICATION
+============================================================
+Experiment         : Có BatchNorm
+Checkpoint type    : BEST
+Path               : ./saved_models\co_batchnorm\best_checkpoint.pth
+Reloaded Accuracy  : 89.4000%
+Expected Accuracy  : 89.4000%
+Difference         : 0.00000000 percentage points
+Status             : VERIFIED SUCCESSFULLY
+------------------------------------------------------------
+Experiment         : Cơ sở: 2 lớp ẩn (256-128)
+Checkpoint type    : BEST
+Path               : ./saved_models\co_so_2_lop_an_256_128\best_checkpoint.pth
+Reloaded Accuracy  : 88.7000%
+Expected Accuracy  : 88.7000%
+Difference         : 0.00000000 percentage points
+Status             : VERIFIED SUCCESSFULLY
+------------------------------------------------------------
+Experiment         : Cơ sở: 2 lớp ẩn (256-128)
+Checkpoint type    : LAST
+Path               : ./saved_models\co_so_2_lop_an_256_128\last_checkpoint.pth
+Reloaded Accuracy  : 88.6100%
+Expected Accuracy  : 88.6100%
+Difference         : 0.00000000 percentage points
+Status             : VERIFIED SUCCESSFULLY
+------------------------------------------------------------
+Experiment         : 1 lớp ẩn (256)
+Checkpoint type    : BEST
+Path               : ./saved_models\1_lop_an_256\best_checkpoint.pth
+Reloaded Accuracy  : 88.4500%
+Expected Accuracy  : 88.4500%
+Difference         : 0.00000000 percentage points
+Status             : VERIFIED SUCCESSFULLY
+------------------------------------------------------------
+Experiment         : 1 lớp ẩn (256)
+Checkpoint type    : LAST
+Path               : ./saved_models\1_lop_an_256\last_checkpoint.pth
+Reloaded Accuracy  : 88.4500%
+Expected Accuracy  : 88.4500%
+Difference         : 0.00000000 percentage points
+Status             : VERIFIED SUCCESSFULLY
+------------------------------------------------------------
+Experiment         : 3 lớp ẩn (256-128-64)
+Checkpoint type    : BEST
+Path               : ./saved_models\3_lop_an_256_128_64\best_checkpoint.pth
+Reloaded Accuracy  : 88.5300%
+Expected Accuracy  : 88.5300%
+Difference         : 0.00000000 percentage points
+Status             : VERIFIED SUCCESSFULLY
+------------------------------------------------------------
+Experiment         : 3 lớp ẩn (256-128-64)
+Checkpoint type    : LAST
+Path               : ./saved_models\3_lop_an_256_128_64\last_checkpoint.pth
+Reloaded Accuracy  : 88.1300%
+Expected Accuracy  : 88.1300%
+Difference         : 0.00000000 percentage points
+Status             : VERIFIED SUCCESSFULLY
+------------------------------------------------------------
+Experiment         : Hẹp: 2 lớp ẩn (64-32)
+Checkpoint type    : BEST
+Path               : ./saved_models\hep_2_lop_an_64_32\best_checkpoint.pth
+Reloaded Accuracy  : 86.7700%
+Expected Accuracy  : 86.7700%
+Difference         : 0.00000000 percentage points
+Status             : VERIFIED SUCCESSFULLY
+------------------------------------------------------------
+Experiment         : Hẹp: 2 lớp ẩn (64-32)
+Checkpoint type    : LAST
+Path               : ./saved_models\hep_2_lop_an_64_32\last_checkpoint.pth
+Reloaded Accuracy  : 86.5300%
+Expected Accuracy  : 86.5300%
+Difference         : 0.00000000 percentage points
+Status             : VERIFIED SUCCESSFULLY
+------------------------------------------------------------
+Experiment         : Rộng: 2 lớp ẩn (512-256)
+Checkpoint type    : BEST
+Path               : ./saved_models\rong_2_lop_an_512_256\best_checkpoint.pth
+Reloaded Accuracy  : 88.6700%
+Expected Accuracy  : 88.6700%
+Difference         : 0.00000000 percentage points
+Status             : VERIFIED SUCCESSFULLY
+------------------------------------------------------------
+Experiment         : Rộng: 2 lớp ẩn (512-256)
+Checkpoint type    : LAST
+Path               : ./saved_models\rong_2_lop_an_512_256\last_checkpoint.pth
+Reloaded Accuracy  : 88.2900%
+Expected Accuracy  : 88.2900%
+Difference         : 0.00000000 percentage points
+Status             : VERIFIED SUCCESSFULLY
+------------------------------------------------------------
+Experiment         : Dropout 0.0
+Checkpoint type    : BEST
+Path               : ./saved_models\dropout_0_0\best_checkpoint.pth
+Reloaded Accuracy  : 88.4000%
+Expected Accuracy  : 88.4000%
+Difference         : 0.00000000 percentage points
+Status             : VERIFIED SUCCESSFULLY
+------------------------------------------------------------
+Experiment         : Dropout 0.0
+Checkpoint type    : LAST
+Path               : ./saved_models\dropout_0_0\last_checkpoint.pth
+Reloaded Accuracy  : 88.9600%
+Expected Accuracy  : 88.9600%
+Difference         : 0.00000000 percentage points
+Status             : VERIFIED SUCCESSFULLY
+------------------------------------------------------------
+Experiment         : Dropout 0.5
+Checkpoint type    : BEST
+Path               : ./saved_models\dropout_0_5\best_checkpoint.pth
+Reloaded Accuracy  : 87.1000%
+Expected Accuracy  : 87.1000%
+Difference         : 0.00000000 percentage points
+Status             : VERIFIED SUCCESSFULLY
+------------------------------------------------------------
+Experiment         : Dropout 0.5
+Checkpoint type    : LAST
+Path               : ./saved_models\dropout_0_5\last_checkpoint.pth
+Reloaded Accuracy  : 87.1000%
+Expected Accuracy  : 87.1000%
+Difference         : 0.00000000 percentage points
+Status             : VERIFIED SUCCESSFULLY
+------------------------------------------------------------
+Experiment         : Activation Tanh
+Checkpoint type    : BEST
+Path               : ./saved_models\activation_tanh\best_checkpoint.pth
+Reloaded Accuracy  : 87.0500%
+Expected Accuracy  : 87.0500%
+Difference         : 0.00000000 percentage points
+Status             : VERIFIED SUCCESSFULLY
+------------------------------------------------------------
+Experiment         : Activation Tanh
+Checkpoint type    : LAST
+Path               : ./saved_models\activation_tanh\last_checkpoint.pth
+Reloaded Accuracy  : 87.4500%
+Expected Accuracy  : 87.4500%
+Difference         : 0.00000000 percentage points
+Status             : VERIFIED SUCCESSFULLY
+------------------------------------------------------------
+Experiment         : Activation RELU
+Checkpoint type    : BEST
+Path               : ./saved_models\activation_relu\best_checkpoint.pth
+Reloaded Accuracy  : 88.7000%
+Expected Accuracy  : 88.7000%
+Difference         : 0.00000000 percentage points
+Status             : VERIFIED SUCCESSFULLY
+------------------------------------------------------------
+Experiment         : Activation RELU
+Checkpoint type    : LAST
+Path               : ./saved_models\activation_relu\last_checkpoint.pth
+Reloaded Accuracy  : 88.6100%
+Expected Accuracy  : 88.6100%
+Difference         : 0.00000000 percentage points
+Status             : VERIFIED SUCCESSFULLY
+------------------------------------------------------------
+Experiment         : Adam lr=0.0001
+Checkpoint type    : BEST
+Path               : ./saved_models\adam_lr_0_0001\best_checkpoint.pth
+Reloaded Accuracy  : 88.7300%
+Expected Accuracy  : 88.7300%
+Difference         : 0.00000000 percentage points
+Status             : VERIFIED SUCCESSFULLY
+------------------------------------------------------------
+Experiment         : Adam lr=0.0001
+Checkpoint type    : LAST
+Path               : ./saved_models\adam_lr_0_0001\last_checkpoint.pth
+Reloaded Accuracy  : 88.5100%
+Expected Accuracy  : 88.5100%
+Difference         : 0.00000000 percentage points
+Status             : VERIFIED SUCCESSFULLY
+------------------------------------------------------------
+Experiment         : Adam lr=0.01
+Checkpoint type    : BEST
+Path               : ./saved_models\adam_lr_0_01\best_checkpoint.pth
+Reloaded Accuracy  : 82.0300%
+Expected Accuracy  : 82.0300%
+Difference         : 0.00000000 percentage points
+Status             : VERIFIED SUCCESSFULLY
+------------------------------------------------------------
+Experiment         : Adam lr=0.01
+Checkpoint type    : LAST
+Path               : ./saved_models\adam_lr_0_01\last_checkpoint.pth
+Reloaded Accuracy  : 81.9400%
+Expected Accuracy  : 81.9400%
+Difference         : 0.00000000 percentage points
+Status             : VERIFIED SUCCESSFULLY
+------------------------------------------------------------
+Experiment         : SGD lr=0.01 momentum=0.9
+Checkpoint type    : BEST
+Path               : ./saved_models\sgd_lr_0_01_momentum_0_9\best_checkpoint.pth
+Reloaded Accuracy  : 89.0000%
+Expected Accuracy  : 89.0000%
+Difference         : 0.00000000 percentage points
+Status             : VERIFIED SUCCESSFULLY
+------------------------------------------------------------
+Experiment         : SGD lr=0.01 momentum=0.9
+Checkpoint type    : LAST
+Path               : ./saved_models\sgd_lr_0_01_momentum_0_9\last_checkpoint.pth
+Reloaded Accuracy  : 89.0000%
+Expected Accuracy  : 89.0000%
+Difference         : 0.00000000 percentage points
+Status             : VERIFIED SUCCESSFULLY
+------------------------------------------------------------
+Experiment         : Có BatchNorm
+Checkpoint type    : LAST
+Path               : ./saved_models\co_batchnorm\last_checkpoint.pth
+Reloaded Accuracy  : 89.1900%
+Expected Accuracy  : 89.1900%
+Difference         : 0.00000000 percentage points
+Status             : VERIFIED SUCCESSFULLY
+------------------------------------------------------------
+Experiment         : Batch size 32
+Checkpoint type    : BEST
+Path               : ./saved_models\batch_size_32\best_checkpoint.pth
+Reloaded Accuracy  : 88.1600%
+Expected Accuracy  : 88.1600%
+Difference         : 0.00000000 percentage points
+Status             : VERIFIED SUCCESSFULLY
+------------------------------------------------------------
+Experiment         : Batch size 32
+Checkpoint type    : LAST
+Path               : ./saved_models\batch_size_32\last_checkpoint.pth
+Reloaded Accuracy  : 88.0200%
+Expected Accuracy  : 88.0200%
+Difference         : 0.00000000 percentage points
+Status             : VERIFIED SUCCESSFULLY
+------------------------------------------------------------
+Experiment         : Batch size 256
+Checkpoint type    : BEST
+Path               : ./saved_models\batch_size_256\best_checkpoint.pth
+Reloaded Accuracy  : 89.1600%
+Expected Accuracy  : 89.1600%
+Difference         : 0.00000000 percentage points
+Status             : VERIFIED SUCCESSFULLY
+------------------------------------------------------------
+Experiment         : Batch size 256
+Checkpoint type    : LAST
+Path               : ./saved_models\batch_size_256\last_checkpoint.pth
+Reloaded Accuracy  : 88.7800%
+Expected Accuracy  : 88.7800%
+Difference         : 0.00000000 percentage points
+Status             : VERIFIED SUCCESSFULLY
+------------------------------------------------------------
