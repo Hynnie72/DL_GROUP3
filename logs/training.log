@@ -1,0 +1,27 @@
+# Logs — Lab 3 Practice 3
+
+Thư mục này lưu log file sinh ra trong quá trình training và evaluation.
+
+## Cấu trúc
+
+```
+logs/
+├── training.log          ← Console output từ lần train mới nhất
+└── smoke_run.log         ← Output từ smoke_run.py (nếu redirect)
+```
+
+## Cách ghi log
+
+```powershell
+# Redirect training output vào file
+python main.py --mode train > logs/training.log 2>&1
+
+# Redirect smoke run
+python scripts/smoke_run.py > logs/smoke_run.log 2>&1
+```
+
+## Kết quả training đã lưu
+
+Metrics chi tiết theo epoch được lưu ở:
+- `reports/training_history.csv`  — loss + accuracy theo epoch
+- `reports/test_metrics.json`     — kết quả test set cuối cùng
